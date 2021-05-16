@@ -71,22 +71,21 @@ bash Scripts/fine_tune.sh
 ## Inference
 
 ```cd CODE```
-### Quantitative
-
 To perform inference and get quantitative results on the test set.
 
-```bash
+```
 bash Scripts/test.sh 
 ```
+> Check the qualitative results at ```visualizations/test_gcn_pred/```.
 
-### Visual Results - Custom Images
+## Custom Images
 
 - Add Document-Image path and Bounding Box coordinates in ```experiments/test_instance.json``` file.
 - Execute -
 ```bash
 python test_instance.py --exp experiments/test_instance.json
 ```
->Check the corresponding instance-level boundary results at ```visualizations/test_single_img/```.
+> Check the corresponding instance-level boundary results at ```visualizations/test_single_img/```.
 
 
 # Citation
