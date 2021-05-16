@@ -87,9 +87,9 @@ bash Scripts/test.sh
 - Add Document-Image path and Bounding Box coordinates in ```experiments/test_instance.json``` file.
 - Execute -
 ```bash
-python test_instance.py --exp experiments/test_instance.json
+python test_custom.py --exp experiments/custom_args.json
 ```
-> Check the corresponding instance-level boundary results at ```visualizations/test_single_img/```.
+> Check the corresponding instance-level boundary results at ```visualizations/test_custom_img/```.
 
 
 # Citation
