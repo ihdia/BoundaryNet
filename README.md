@@ -84,7 +84,7 @@ bash Scripts/test.sh
 
 ## Custom Images
 
-- Add Document-Image path and Bounding Box coordinates in ```experiments/test_instance.json``` file.
+- Add Document-Image path and Bounding Box coordinates in ```experiments/custom_args.json``` file.
 - Execute -
 ```bash
 python test_custom.py --exp experiments/custom_args.json
