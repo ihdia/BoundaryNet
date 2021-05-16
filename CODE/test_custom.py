@@ -133,7 +133,7 @@ class Tester(object):
             for point in pred:
                 cv2.circle(vis_img1, (int(point[0]), int(point[1])), 1, (0, 0, 210), -1)
 
-            cv2.imwrite("visualization/test_single_img/" + str(count) + ".jpg", vis_img1)
+            cv2.imwrite("visualization/test_custom_img/" + str(count) + ".jpg", vis_img1)
 
 
 if __name__ == '__main__':
