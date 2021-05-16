@@ -17,7 +17,7 @@
 
 <img src="Architecture.png">
 
-We propose BoundaryNet, a novel resizing-free approach for high-precision semi-automatic layout annotation. The variable-sized user selected region
+We propose a novel resizing-free approach for high-precision semi-automatic layout annotation. The variable-sized user selected region
 of interest is first processed by an attention-guided skip network. The network optimization is guided via Fast Marching distance maps to obtain a good quality
 initial boundary estimate and an associated feature representation. These outputs are processed by a Residual Graph Convolution Network optimized using Hausdorff
 loss to obtain the final region boundary.
