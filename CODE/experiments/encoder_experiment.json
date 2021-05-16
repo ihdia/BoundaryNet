@@ -1,0 +1,77 @@
+{
+    "exp_dir": "./",
+    "mode": "train",
+    "input_size":3,
+    "lr": 3e-5,
+    "lr_decay": 7,
+    "weight_decay": 1e-5,
+    "max_epochs": 110,
+    "grad_clip": 40,
+    "max_poly_len": 100,
+    "print_freq": 1000,
+    "val_freq": 7000,
+    "dec_per" :0.05,
+    "dataset": {
+        "train" : {
+            "data_dir": "datasets/data_splits/",
+            "batch_size": 1,
+            "num_workers": 1,
+            "skip_multicomponent":true,  
+            "dec_per":0.05,
+            "min_poly_len": 10,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        },
+        "test" : {
+            "data_dir": "datasets/data_splits/",
+            "batch_size": 1,
+            "num_workers": 1,
+            "min_poly_len": 10,
+            "skip_multicomponent":true,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        },
+        "train_val" : {
+            "data_dir": "datasets/data_splits/",
+            "batch_size": 1,
+            "num_workers": 4,
+            "min_poly_len": 10,
+            "skip_multicomponent":true,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "exp_dir": "./",
+    "mode": "train",
+    "input_size":3,
+    "lr": 1e-3,
+    "lr_decay": 8,
+    "enc_freeze": true,
+    "weight_decay": 1e-5,
+    "max_epochs": 110,
+    "grad_clip": 40,
+    "print_freq": 1000,
+    "val_freq": 7285,
+    "dec_per" :0.05,
+    "loss_type":"L1",
+    "n_adj":20,
+    "get_point_annotation":false,
+    "p_num":200,
+    "cnn_feature_grids":[1, 128, 30, 60],
+    "coarse_to_fine_steps":2,
+    "dataset": {
+        "train" : {
+            "data_dir": "datasets/data_splits/",
+            "batch_size": 1,
+            "num_workers": 2,
+            "skip_multicomponent":true,  
+            "dec_per":0.05,
+            "min_poly_len": 10,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        },
+        "test" : {
+            "data_dir": "datasets/data_splits/",
+            "batch_size": 1,
+            "num_workers": 2,
+            "min_poly_len": 10,
+            "skip_multicomponent":true,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        },
+        "train_val" : {
+            "data_dir": "datasets/data_splits/",
+            "batch_size": 1,
+            "num_workers": 4,
+            "min_poly_len": 10,
+            "skip_multicomponent":true,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        }
+    }
+}
