@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- === Header Starts === -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Boundary-NET</title>
+  
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="./assets/jquery-magnify.js"></script>
+  
+  <link href="./assets/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/font.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="./assets/jquery-magnify.css" />
+  <link href="./assets/style.css" rel="stylesheet" type="text/css">
+  
+  
+  <style>
+        .magnify-modal {
+            box-shadow: 0 0 6px 2px rgba(0, 0, 0, .3);
+        }
+        .magnify-header .magnify-toolbar {
+            background-color: rgba(0, 0, 0, .5);
+        }
+        .magnify-stage {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-width: 0;
+        }
+        .magnify-footer .magnify-toolbar {
+            background-color: rgba(0, 0, 0, .5);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .magnify-header,
+        .magnify-footer {
+            pointer-events: none;
+        }
+        .magnify-button {
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<!-- === Header Ends === -->
+
+
+<body>
+
+  
+<!-- === Home Section Starts === -->
+<div class="section">
+  
+  <!-- === Title Starts === -->
+  
+    <div class="logo">
+      <a href="https://iiit.ac.in/" target="_blank"><img src="./assets/iiit-new.png"></a>
+    </div>
+    <div class="logo1">
+      <a href="https://cvit.iiit.ac.in/" target="_blank"><img src="./assets/cvit_logo.png"></a>
+    </div>
+  <div class="header">
+    <br>
+    <br>
+    <div class="title", style="padding-top: 10pt;">
+      BoundaryNet - An Attentive Deep Network with Fast Marching Distance Maps for Semi-automatic Layout Annotation
+    </div>
+  
+  
+  <!-- === Title Ends === -->
+  <div class="author">
+    <a href="https://github.com/Abhishek-Trivedi" target="_blank">Abhishek Trivedi</a></sup>,&nbsp;
+    <a href="https://ravika.github.io/" target="_blank">Ravi Kiran Sarvadevabhatla</a>
+  </div>
+  <div class="institution">
+    International Institute of Information Technology, Hyderabad </a> <br>
+    International Conference on Document Analysis and Recognition <a href="https://icdar2021.org/" target="_blank">(ICDAR 2021) </a>
+  </div>
+  <div class="link">
+    <a href="https://drive.google.com/file/d/12BVXwsk84MnC4F7ycGQSiATEffL4OXUC/view?usp=sharing" target="_blank">[Paper]</a>&nbsp;
+    <a href="https://github.com/ihdia/Boundary-NET/" target="_blank">[Code]</a>&nbsp;
+    <br>
+  </div>
+  </div>
+</div>
+<!-- === Home Section Ends === -->
+
+
+<!-- === Overview Section Starts === -->
+<div class="section">
+  <div class="title">Overview</div>
+  <div class="body">
+    In this work, we propose BoundaryNet, a novel resizing-free approach for high-precision semi-automatic layout annotation. The variable-sized user selected region of interest is first processed by an attention-guided skip network. The network optimization is guided via Fast Marching distance maps to obtain a good quality initial boundary estimate and an associated feature representation. These outputs are processed by a Residual Graph Convolution Network optimized using Hausdorff loss to obtain the final region boundary. 
+Results on a challenging image manuscript dataset demonstrate that BoundaryNet outperforms strong baselines and produces high-quality semantic region boundaries. Qualitatively, our approach generalizes across multiple document image datasets containing different script systems and layouts, all without additional fine-tuning.
+  </div>
+</div>
+<!-- === Overview Section Ends === -->
+
+
+<!-- === Architecture Section Starts === -->
+<div class="section", id = "architecture">
+  <div class="title">Architecture</div>
+  <div class="body">
+    <div id="img_intro_examples" class="img_container">
+     <table width="100%" style="margin: 20pt auto; text-align: center;">
+       <tr>
+         <a data-magnify="gallery" data-caption="BoundaryNET Architecture" href="./assets/BoundaryNet.png">
+          <img style="padding-right: 1rem; float:right ", src="./assets/magnifier-icon.png" border="0" width="3%" height="3%" />
+           </a>
+       </tr>
+         
+       <tr>
+         <td>
+          <center><img src="./assets/BoundaryNet.png" width="95%"></center>
+          <td>
+      </tr>
+    </table>
+      </div>
+            The architecture of BoundaryNet (top) and various sub-components (bottom).
+            The variable-sized H×W input image is processed by Mask-CNN (MCNN)
+            which predicts a region mask estimate and an associated region class.
+            The mask’s boundary is determined using a contourization procedure (light
+            brown) applied on the estimate from MCNN. M boundary points are sampled
+            on the boundary. A graph is constructed with the points as nodes and
+            edge connectivity defined by 6 k-hop neighborhoods of each point. The spatial
+            coordinates of a boundary point location p = (x, y) and corresponding back-
+            bone skip attention features from MCNN f^r are used as node features for the
+            boundary point. The feature-augmented contour graph G = (F, A) is iteratively
+            processed by Anchor GCN to obtain the final output contour points
+            defining the region boundary.
+
+
+<!--     Check more results of various scenes in the following video.
+    <div style="position: relative; padding-top: 50%; margin: 20pt auto; text-align: center;">
+      <iframe src="https://www.youtube.com/embed/X5yWu2Jwjpg" frameborder="0"
+              style="position: absolute; top: 2.5%; left: 2.5%; width: 95%; height: 100%;"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe> -->
+    </div>
+  </div>
+</div>
+<!-- === Architecture Section Ends === -->
+
+
+<!-- === Material Section Starts === -->
+<div class="section" , id = "materials">
+  <div class="title">Material</div>
+  <div class="body">
+    
+        <table width="100%" style="margin: 20pt auto; text-align: center;">
+      <tr>
+                                </td>
+                        <td width="33%" valign="middle">
+                            <center>
+                                <a href="https://drive.google.com/file/d/12BVXwsk84MnC4F7ycGQSiATEffL4OXUC/view?usp=sharing" target="_blank"
+                                   class="imageLink"><img src="./assets/Paper_crop.png" ,=, width="75%" /></a><br /><br />
+                                <a href="https://drive.google.com/file/d/12BVXwsk84MnC4F7ycGQSiATEffL4OXUC/view?usp=sharing" target="_blank">Paper</a>
+                            </center>
+
+                        </td>
+
+                        <td width="33%" valign="middle">
+                            <center>
+                                <a href="https://github.com/ihdia/Boundary-NET" target="_blank"
+                                   class="imageLink"><img src="./assets/icon_github.png" ,=, width="50%" /></a><br /><br />
+                                <a href="https://github.com/ihdia/Boundary-NET" target="_blank">Code [PyTorch]</a>
+                            </center>
+                        </td>
+                             
+                       <td width="33%" valign="middle">
+                            <center>
+                                <a href="https://drive.google.com/file/d/1KVoNtxCV6PAPvJctvzQDJcQFr3t-hZA4/view?usp=sharing" target="_blank"
+                                   class="imageLink"><img src="./assets/Supp_Crop.png" ,=, width="75%" /></a><br /><br />
+                                <a href="https://drive.google.com/file/d/1KVoNtxCV6PAPvJctvzQDJcQFr3t-hZA4/view?usp=sharing" target="_blank">Supplementary</a>
+                            </center>
+                        </td>
+      </tr>
+    </table>
+</div>
+  </div>
+</div>
+<!-- === Material Section Ends === -->
+
+
+<!-- === Results Section Starts === -->
+
+<div class="section" , id = "results">
+  <div class="title">Instance-level Results from Bounding Box Supervision</div>
+  <div class="body">
+    
+        <table width="100%" style="margin: 20pt auto; text-align: center;">
+      <tr>
+        <td><img src="./assets/Region_level.png" width="100%"></td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</div>
+
+<div class="section" , id = "results1">
+  <div class="title">Page-level Results on Historical Documents</div>
+  <div class="body">
+    
+     <table width="94%" style="margin: 20pt auto; text-align: center;">
+      <tr>
+                  <a data-magnify="gallery" data-caption="Page level results" href="./assets/Results1.png">
+                  <img style="padding-right: 1rem; float:right ", src="./assets/magnifier-icon.png" border="0" width="3%" height="3%" />
+                  </a>
+      </tr>
+       <tr>
+        <td>
+          <center><img src="./assets/Results1.png" width="100%"></td></center>
+      </tr>
+    </table>
+    </div>
+  </div>
+</div>
+
+<div class="section" , id = "Time Data">
+  <div class="title">Interaction with Human Annotators</div>
+  <div class="body">
+    
+     <table width="65%" style="margin: 20pt auto; text-align: center;">
+       <tr>
+        <td>
+          <center><img src="./assets/Time_Data.png" width="100%"></td></center>
+      </tr>
+    </table>
+    </div>
+      A small scale experiment was conducted with real human annotators in the loop to determine BoundaryNet utility in a practical setting.
+     The annotations for a set of images were sourced using <a href="https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2019/ICDAR_19_OST_Hindola.pdf">HINDOLA</a>
+     document annotation system in three distinct modes: Manual Mode (hand-drawn contour generation and region labelling), Fully Automatic Mode (using an existing instance segmentation 
+     approach- <a href="https://arxiv.org/pdf/1912.07025.pdf"> Indiscapes</a> with post-correction using the annotation system) and Semi-Automatic Mode (manual input of region bounding boxes which are subsequently
+     sent to BoundaryNet, followed by post-correction). For each mode, we recorded the end-to-end annotation time at per-document level, including manual correction time (Violin plots shown in the figure). 
+     BoundaryNet outperforms other approaches by generating superior quality contours which minimize post-inference manual correction burden.
+    
+  </div>
+</div>
+<!-- === Results Section Ends === -->
+
+
+<!-- === Reference Section Starts === -->
+<div class="section", id = "citation" >
+  <div class="bibtex">Citation</div>
+  <pre>
+  @inProceedings{trivedi2021boundarynet,
+    title   = {BoundaryNet: An Attentive Deep Network with Fast Marching Distance Maps for Semi-automatic 
+               Layout Annotation},
+    author  = {Trivedi, Abhishek and Sarvadevabhatla, Ravi Kiran},
+    booktitile = {International Conference on Document Analysis and Recognition},
+    year    = {2021}
+  }
+  </pre>
+
+  <div class="ref">Related Work</div>
+  <div class="citation">
+    <div class="image"><img src="./assets/Hindola.png"></div>
+    <div class="comment">
+      <a href="https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2019/ICDAR_19_OST_Hindola.pdf" target="_blank">
+        A. Trivedi, RK. Sarvadevabhatla.
+         Hindola: A Unified Cloud-based Platform for Annotation, Visualization and MachineLearning-based Layout Analysis of HistoricalManuscripts.
+        ICDAR-OST, 2019.</a><br>
+      <b>Comment:</b>
+      Features an intuitive Annotation  GUI, a graphical analytics dashboard and interfaces with machine-learning based intelligent modules for Historical Documents Annotation.
+    </div>
+  </div>
+  <div class="citation">
+    <div class="image"><img src="./assets/indiscapes-dataset.png"></div>
+    <div class="comment">
+      <a href="https://arxiv.org/pdf/1912.07025.pdf" target="_blank">
+        A. Prusty, S. Aitha, A. Trivedi, RK. Sarvadevabhatla.
+        Indiscapes: Instance Segmentation Networks forLayout Parsing of Historical Indic Manuscripts.
+        ICDAR, 2019.</a><br>
+      <b>Comment:</b>
+       The first ever dataset with multi-regional layout annotations for historical Indic manuscripts..
+    </div>
+  </div>
+  <div class="citation">
+    <div class="image"><img src="./assets/Palmira-Arch-Crop.jpg"></div>
+    <div class="comment">
+      <a href="https://ckkelvinchan.github.io/papers/glean.pdf" target="_blank">
+        S.P Sharan, S.Aitha, A.Kumar, A. Trivedi, A. Augustine, RK. Sarvadevabhatla.
+        PALMIRA: A Deep Deformable Network for Instance Segmentation of Dense and Uneven Layouts in Handwritten Manuscripts.
+        ICDAR, 2021.</a><br>
+      <b>Comment:</b>
+       A novel deep network Palmira for robust, deformation-aware instance segmentation of regions in handwritten manuscripts.
+    </div>
+  </div>
+</div>
+<!-- === Reference Section Ends === -->
+
+<!--=================Contact==========================-->
+                <div class="section contact">
+                    <h2 id="contact">Contact</h2>
+                    <p>If you have any question, please contact Dr. Ravi Kiran Sarvadevabhatla at <a href="mailto:ravi.kiran@iiit.ac.in">ravi.kiran@iiit.ac.in </a>.</p>
+                </div>
+
+
+</body>
+</html>
