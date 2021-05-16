@@ -8,25 +8,19 @@
 
 </samp>
 
-
 **_To appear at [ICDAR 2021](https://icdar2021.org/)_**
 
 | **[ [```Paper```](<>) ]** | **[ [```Website```](<https://ihdia.iiit.ac.in/BoundaryNet/>) ]** |
 |:-------------------:|:-------------------:|
 
-<br>
-
 <img src="Architecture.png">
-
+<b>Figure</b> : BNet Architecture from different abstract levels: Mask-CNN, Anchor GCN.
+</br>
 We propose a novel resizing-free approach for high-precision semi-automatic layout annotation. The variable-sized user selected region
 of interest is first processed by an attention-guided skip network. The network optimization is guided via Fast Marching distance maps to obtain a good quality
 initial boundary estimate and an associated feature representation. These outputs are processed by a Residual Graph Convolution Network optimized using Hausdorff
 loss to obtain the final region boundary.
-
----
-
 </div>
-
 
 # Dependencies and Installation
 
