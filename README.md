@@ -6,7 +6,7 @@
 
 <h2> An Attentive Deep Network with Fast Marching Distance Maps for Semi-automatic Layout Annotation </h2>
 
-</samp>
+
 
 **_To appear at [ICDAR 2021](https://icdar2021.org/)_**
 
@@ -17,12 +17,16 @@
 
 <img src="Architecture.png">
 
+We propose BoundaryNet, a novel resizing-free approach for high-precision semi-automatic layout annotation. The variable-sized user selected region
+of interest is first processed by an attention-guided skip network. The network optimization is guided via Fast Marching distance maps to obtain a good quality
+initial boundary estimate and an associated feature representation. These outputs are processed by a Residual Graph Convolution Network optimized using Hausdorff
+loss to obtain the final region boundary.
+
 ---
 
+</samp>
 </div>
 
-<!-- # Getting the Dataset
-> Will be released soon! -->
 
 # Dependencies and Installation
 
