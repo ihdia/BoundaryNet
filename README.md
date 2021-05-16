@@ -40,18 +40,19 @@ pip install -r requirements.txt
 
 # Usage
 
+```cd CODE```
+
 ## Initial Setup:
 
 - Download the Indiscapes **[[`Dataset Link`](https://github.com/ihdia/indiscapes)]**
 - Place the
-    - Dataset Images under `CODE/data` directory
-    - Pretrained BNet Model weights in the `CODE/checkpoints` directory
-    - JSON annotation data in `CODE/datasets` directory
+    - Dataset Images under `data` directory
+    - Pretrained BNet Model weights in the `checkpoints` directory
+    - JSON annotation data in `datasets` directory
 
 
 ## Training
 
-```cd CODE```
 1. MCNN:
 ```
 bash Scripts/train_mcnn.sh
@@ -70,7 +71,6 @@ bash Scripts/fine_tune.sh
 
 ## Inference
 
-```cd CODE```
 To perform inference and get quantitative results on the test set.
 
 ```
