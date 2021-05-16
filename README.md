@@ -6,6 +6,7 @@
 
 <h2> An Attentive Deep Network with Fast Marching Distance Maps for Semi-automatic Layout Annotation </h2>
 
+</samp>
 
 
 **_To appear at [ICDAR 2021](https://icdar2021.org/)_**
@@ -24,7 +25,6 @@ loss to obtain the final region boundary.
 
 ---
 
-</samp>
 </div>
 
 
