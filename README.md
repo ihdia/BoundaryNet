@@ -24,7 +24,7 @@ loss to obtain the final region boundary.
 
 # Dependencies and Installation
 
-The PALMIRA code is tested with
+The BoundaryNet code is tested with
 
 - Python (`3.5.x`)
 - PyTorch (`1.0.0`)
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ## Initial Setup:
 
-- Download the Indiscapes **[[`Dataset Link`](https://github.com/ihdia/indiscapes)]**
+- Download the Indiscapes dataset - **[[`Dataset Link`](https://github.com/ihdia/indiscapes)]**
 - Place the
     - Dataset Images under `data` directory
     - Pretrained BNet Model weights in the `checkpoints` directory
@@ -63,7 +63,7 @@ bash Scripts/train_agcn.sh
 ```
 bash Scripts/fine_tune.sh
 ```
-- For all of the above scripts, corresponding experiment files are present in ```experiments/``` directory.
+- For all of the above scripts, corresponding experiment files are present in ```experiments``` directory.
 - Any required parameter changes can be performed in these files.
 
 
@@ -74,7 +74,7 @@ To perform inference and get quantitative results on the test set.
 ```
 bash Scripts/test.sh 
 ```
-> Check the qualitative results at ```visualizations/test_gcn_pred/```.
+> Check the qualitative results in ```visualizations/test_gcn_pred/``` directory.
 
 ## Custom Images
 
@@ -83,7 +83,7 @@ bash Scripts/test.sh
 ```bash
 python test_custom.py --exp experiments/custom_args.json
 ```
-> Check the corresponding instance-level boundary results at ```visualizations/test_custom_img/```.
+> Check the corresponding instance-level boundary results at ```visualizations/test_custom_img/``` directory.
 
 
 # Citation
