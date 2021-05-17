@@ -80,11 +80,35 @@ bash Scripts/test.sh
 
 - Add Document-Image path and Bounding Box coordinates in ```experiments/custom_args.json``` file.
 - Execute -
-```bash
-python test_custom.py --exp experiments/custom_args.json
-```
+  ```bash
+    python test_custom.py --exp experiments/custom_args.json
+  ```
 > Check the corresponding instance-level boundary results at ```visualizations/test_custom_img/``` directory.
 
+## Fine Tuning on Custom Dataset
+
+1. Add dataset images in ```data``` folder and Json annotations in ```datasets/data_splits/```.
+
+2. Fine Tune MCNN
+    - Modify parameters in ```experiments/encoder_experiment.json``` file
+    - Freeze the Skip Attention backbone
+      ```
+      bash train_mcnn.sh 
+      ``` 
+   > Check the corresponding instance-level boundary results at ```visualizations/test_encoder_pred/``` directory.
+
+3. Train AGCN
+   - From new MCNN model file in ```checkpoints```
+   - Modify the MCNN model checkpoint path in ```models/combined_model.py```
+     ``` 
+     bash train_agcn.sh
+     ```
+   > Check the corresponding instance-level boundary results at ```visualizations/test_gcn_pred/``` directory.
+
+4. End-to-end fine tuning:
+    ```
+    bash fine-tune.sh 
+    ```
 
 # Citation
 
