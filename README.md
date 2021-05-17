@@ -69,6 +69,7 @@ bash Scripts/fine_tune.sh
 
 ## Inference
 
+### Test Set
 To perform inference and get quantitative results on the test set.
 
 ```
@@ -76,7 +77,7 @@ bash Scripts/test.sh
 ```
 > Check the qualitative results in ```visualizations/test_gcn_pred/``` directory.
 
-## Custom Images
+### Custom Images
 
 - Add Document-Image path and Bounding Box coordinates in ```experiments/custom_args.json``` file.
 - Execute -
