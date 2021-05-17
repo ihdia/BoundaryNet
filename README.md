@@ -99,7 +99,7 @@ bash Scripts/test.sh
  ``` 
 > Check the corresponding instance-level boundary results at ```visualizations/test_encoder_pred/``` directory.
 
-3. Train AGCN
+3. Train AGCN from scratch
 
 - From new MCNN model file in ```checkpoints```
 - Modify the MCNN model checkpoint path in ```models/combined_model.py```
