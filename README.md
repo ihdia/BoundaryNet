@@ -14,7 +14,7 @@
 |:-------------------:|:-------------------:|
 
 <img src="Architecture.png">
-<b>Figure</b> : BNet Architecture from different abstract levels: Mask-CNN, Anchor GCN.
+<b>Figure</b> : BoundaryNet architecture from different abstract levels: Mask-CNN, Anchor GCN.
 </br>
 We propose a novel resizing-free approach for high-precision semi-automatic layout annotation. The variable-sized user selected region
 of interest is first processed by an attention-guided skip network. The network optimization is guided via Fast Marching distance maps to obtain a good quality
