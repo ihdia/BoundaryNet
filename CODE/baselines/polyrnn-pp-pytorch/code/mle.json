@@ -1,0 +1,72 @@
+{
+    "exp_dir": "/home/abhitrivedi/polyrnn-pp-pytorch/code/",
+    "mode": "train_ce",
+    "temperature": 0.0,
+    "return_attention": true,
+    "train_encoder": false,
+    "train_attention": true,
+    "lr": 1e-4,
+    "lr_decay": 5,
+    "weight_decay": 1e-5,
+    "grad_clip": 40,
+    "max_epochs": 20,
+    "max_poly_len": 100,
+    "print_freq": 400,
+    "val_freq": 900,
+    "fp_weight": 200,
+    "dt_threshold": 2,
+    "encoder_reload": "/home/abhitrivedi/polyrnn-pp-pytorch/resnet50-19c8e357.pth",
+    "use_bn_lstm": true,
+    "dataset": {
+        "train" : {
+            "data_dir": "/home/abhitrivedi/Trace-Gcn-test/raw/",
+            "batch_size": 8,
+            "num_workers": 8,
+            "min_poly_len": 3,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "grid_side": 28,
+            "img_side": 224,
+            "skip_multicomponent": true,
+            "flip": true,
+            "random_start": true,
+            "random_context": [0.1,0.2],
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        },
+        "train_val" : {
+            "data_dir": "/home/abhitrivedi/Trace-Gcn-test/raw/",
+            "batch_size": 1,
+            "num_workers": 8,
+            "min_poly_len": 3,
+            "max_poly_len": 100,
+            "min_area": 100,
+            "sub_th": 0,
+            "grid_side": 28,
+            "img_side": 224,
+            "skip_multicomponent": true,
+            "flip": false,
+            "random_start": false,
+            "random_context": [0.15,0.15],
+            "class_filter": [
+                "Character Line Segment",
+                "Hole(Physical)",
+                "Character Component",
+                "Picture",
+                "Decorator",
+                "Library Marker",
+                "Boundary Line",
+                "Physical Degradation"
+            ]
+        }
+    }
+}
