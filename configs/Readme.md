@@ -35,7 +35,7 @@ pip install -r requirements.txt
 - Download the Indiscapes dataset - **[[`Dataset Link`](https://github.com/ihdia/indiscapes)]**
 - Place the
     - Dataset Images under `doc_images` directory
-    - Pretrained CurveGCN/DACN Model weights in the `checkpoints` directory
+    - Pretrained Model weights in the `checkpoints` directory
     - JSON annotation data in `data_splits` directory
 
 
@@ -58,7 +58,7 @@ The code is tested with
 - CUDA (`10.2`)
 
 
-```cd baselines/polyrnn-pp-pytorch/```
+```cd baselines/polyrnn-pp-pytorch/code/```
 
 
 Please install dependencies by
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 - Download the Indiscapes dataset - **[[`Dataset Link`](https://github.com/ihdia/indiscapes)]**
 - Place the
     - Dataset Images under `doc_images` directory
-    - Pretrained CurveGCN/DACN Model weights in the `checkpoints` directory
+    - Pretrained Model weights in the `checkpoints` directory
     - JSON annotation data in `data_splits` directory
 
 
