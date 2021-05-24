@@ -64,7 +64,7 @@ The code is tested with
 Please install dependencies by
 
 ```bash
-pip install -r code/requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
