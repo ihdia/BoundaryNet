@@ -15,11 +15,11 @@
     "val_freq": 900,
     "fp_weight": 200,
     "dt_threshold": 2,
-    "encoder_reload": "/home/abhitrivedi/polyrnn-pp-pytorch/resnet50-19c8e357.pth",
+    "encoder_reload": "/polyrnn-pp-pytorch/resnet50-19c8e357.pth",
     "use_bn_lstm": true,
     "dataset": {
         "train" : {
-            "data_dir": "/data_splits/",
+            "data_dir": "/polyrnn-pp-pytorch/code/data_splits/",
             "batch_size": 8,
             "num_workers": 8,
             "min_poly_len": 3,
@@ -44,7 +44,7 @@
             ]
         },
         "train_val" : {
-            "data_dir": "/data_splits/",
+            "data_dir": "/polyrnn-pp-pytorch/code/data_splits/",
             "batch_size": 1,
             "num_workers": 8,
             "min_poly_len": 3,

@@ -353,7 +353,7 @@ class DataProvider(Dataset):
             n -= 1
 
         df2 = df1[start:]
-        i_url = "/doc_images/new_jpg_data"+df2
+        i_url = "/polyrnn-pp-pytorch/code/doc_images/"+df2
 
         img = utils.rgb_img_read(i_url)
         img1 = imread(i_url)

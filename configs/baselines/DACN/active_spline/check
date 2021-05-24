@@ -1,0 +1,1933 @@
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000000_012868_13_info.json
+==> Get Positions
+(20, 2)
+(19, 2)
+==> Get real IOU
+Ground Truth Area : 2309, Predict Area : 2160, ratio: 0.93547
+0.908198121264
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 14364.1729,  14364.1729])
+tensor([ 15396.5674,  15396.5674])
+('Ratio: ', tensor([ 0.9329,  0.9329]))
+tensor(8917.4795)
+tensor(-8864.9980)
+tensor(-8836.3740)
+tensor(8894.3330)
+tensor(8917.4795)
+tensor(-8864.9980)
+tensor(-8836.3740)
+tensor(8894.3330)
+('==> Intersection ', tensor(17756.5938))
+('==> Ground Area ', tensor([ 15396.5674,  15396.5674]), tensor([ 14364.1729,  14364.1729]))
+('==> Union ', tensor([ 12004.1465,  12004.1465]))
+Real IOU: 0.9082, Pred IOU: 1.4792
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_062250_104_info.json
+==> Get Positions
+(20, 2)
+(31, 2)
+==> Get real IOU
+Ground Truth Area : 3849, Predict Area : 3681, ratio: 0.95635
+0.912138141188
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 17925.2383,  17925.2383])
+tensor([ 18685.5430,  18685.5430])
+('Ratio: ', tensor([ 0.9593,  0.9593]))
+tensor(11313.4209)
+tensor(-11410.2676)
+tensor(-11235.1113)
+tensor(11369.6445)
+tensor(11313.4209)
+tensor(-11410.2676)
+tensor(-11235.1113)
+tensor(11369.6445)
+('==> Intersection ', tensor(22664.2227))
+('==> Ground Area ', tensor([ 18685.5430,  18685.5430]), tensor([ 17925.2383,  17925.2383]))
+('==> Union ', tensor([ 13946.5586,  13946.5586]))
+Real IOU: 0.9121, Pred IOU: 1.6251
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_009854_58_info.json
+==> Get Positions
+(20, 2)
+(13, 2)
+==> Get real IOU
+Ground Truth Area : 833, Predict Area : 875, ratio: 1.05042
+0.769948186528
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 4822.1909,  4822.1909])
+tensor([ 4547.4087,  4547.4087])
+('Ratio: ', tensor([ 1.0604,  1.0604]))
+tensor(346.5477)
+tensor(-361.4657)
+tensor(-297.4629)
+tensor(351.3237)
+tensor(346.5477)
+tensor(-361.4657)
+tensor(-297.4629)
+tensor(351.3237)
+('==> Intersection ', tensor(678.4000))
+('==> Ground Area ', tensor([ 4547.4087,  4547.4087]), tensor([ 4822.1909,  4822.1909]))
+('==> Union ', tensor([ 8691.1992,  8691.1992]))
+Real IOU: 0.7699, Pred IOU: 0.0781
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_054077_13_info.json
+==> Get Positions
+(20, 2)
+(23, 2)
+==> Get real IOU
+Ground Truth Area : 1102, Predict Area : 2233, ratio: 2.02632
+0.471107190119
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 12751.5596,  12751.5596])
+tensor([ 6195.5024,  6195.5024])
+('Ratio: ', tensor([ 2.0582,  2.0582]))
+tensor(1669.2889)
+tensor(-1701.2267)
+tensor(-1691.1339)
+tensor(1707.1638)
+tensor(1669.2889)
+tensor(-1701.2267)
+tensor(-1691.1339)
+tensor(1707.1638)
+('==> Intersection ', tensor(3384.4067))
+('==> Ground Area ', tensor([ 6195.5024,  6195.5024]), tensor([ 12751.5596,  12751.5596]))
+('==> Union ', tensor([ 15562.6562,  15562.6562]))
+Real IOU: 0.4711, Pred IOU: 0.2175
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000049_000019_57_info.json
+==> Get Positions
+(20, 2)
+(38, 2)
+==> Get real IOU
+Ground Truth Area : 1182, Predict Area : 2502, ratio: 2.11675
+0.209058089925
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 11820.3721,  11820.3721])
+tensor([ 5090.8921,  5090.8921])
+('Ratio: ', tensor([ 2.3219,  2.3219]))
+tensor(2552.5662)
+tensor(-2648.7751)
+tensor(-2574.7114)
+tensor(2567.8789)
+tensor(2552.5662)
+tensor(-2648.7751)
+tensor(-2574.7114)
+tensor(2567.8789)
+('==> Intersection ', tensor(5171.9658))
+('==> Ground Area ', tensor([ 5090.8921,  5090.8921]), tensor([ 11820.3721,  11820.3721]))
+('==> Union ', tensor([ 11739.2979,  11739.2979]))
+Real IOU: 0.2091, Pred IOU: 0.4406
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000156_000019_86_info.json
+==> Get Positions
+(20, 2)
+(19, 2)
+==> Get real IOU
+Ground Truth Area : 1445, Predict Area : 1298, ratio: 0.89827
+0.842175957018
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 6043.8911,  6043.8911])
+tensor([ 6816.4102,  6816.4102])
+('Ratio: ', tensor([ 0.8867,  0.8867]))
+tensor(2070.8740)
+tensor(-2089.0215)
+tensor(-2094.7083)
+tensor(2045.2769)
+tensor(2070.8740)
+tensor(-2089.0215)
+tensor(-2094.7083)
+tensor(2045.2769)
+('==> Intersection ', tensor(4149.9404))
+('==> Ground Area ', tensor([ 6816.4102,  6816.4102]), tensor([ 6043.8911,  6043.8911]))
+('==> Union ', tensor([ 8710.3604,  8710.3604]))
+Real IOU: 0.8422, Pred IOU: 0.4764
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_017459_64_info.json
+==> Get Positions
+(20, 2)
+(12, 2)
+==> Get real IOU
+Ground Truth Area : 1931, Predict Area : 2005, ratio: 1.03832
+0.522041763341
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 40763.4180,  40763.4180])
+tensor([ 7807.3320,  7807.3320])
+('Ratio: ', tensor([ 5.2212,  5.2212]))
+tensor(3515.2644)
+tensor(-3191.4233)
+tensor(-3568.8750)
+tensor(3641.1228)
+tensor(3515.2644)
+tensor(-3191.4233)
+tensor(-3568.8750)
+tensor(3641.1228)
+('==> Intersection ', tensor(6958.3428))
+('==> Ground Area ', tensor([ 7807.3320,  7807.3320]), tensor([ 40763.4180,  40763.4180]))
+('==> Union ', tensor([ 41612.4062,  41612.4062]))
+Real IOU: 0.5220, Pred IOU: 0.1672
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_077233_50_info.json
+==> Get Positions
+(20, 2)
+(15, 2)
+==> Get real IOU
+Ground Truth Area : 301, Predict Area : 305, ratio: 1.01329
+0.803571428571
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 8741.5547,  8741.5547])
+tensor([ 8972.9590,  8972.9590])
+('Ratio: ', tensor([ 0.9742,  0.9742]))
+tensor(8065.8672)
+tensor(-8097.9375)
+tensor(-8074.5220)
+tensor(8035.1030)
+tensor(8065.8672)
+tensor(-8097.9375)
+tensor(-8074.5220)
+tensor(8035.1030)
+('==> Intersection ', tensor(16136.7148))
+('==> Ground Area ', tensor([ 8972.9590,  8972.9590]), tensor([ 8741.5547,  8741.5547]))
+('==> Union ', tensor([ 1577.7988,  1577.7988]))
+Real IOU: 0.8036, Pred IOU: 10.2274
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000061_000019_28_info.json
+==> Get Positions
+(20, 2)
+(60, 2)
+==> Get real IOU
+Ground Truth Area : 30388, Predict Area : 26258, ratio: 0.86409
+0.743114749054
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 9075.3477,  9075.3477])
+tensor([ 10483.5332,  10483.5332])
+('Ratio: ', tensor([ 0.8657,  0.8657]))
+tensor(2083.5659)
+tensor(-2083.5415)
+tensor(-2090.5125)
+tensor(2098.3154)
+tensor(2083.5659)
+tensor(-2083.5415)
+tensor(-2090.5125)
+tensor(2098.3154)
+('==> Intersection ', tensor(4177.9678))
+('==> Ground Area ', tensor([ 10483.5332,  10483.5332]), tensor([ 9075.3477,  9075.3477]))
+('==> Union ', tensor([ 15380.9131,  15380.9131]))
+Real IOU: 0.7431, Pred IOU: 0.2716
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_030669_59_info.json
+==> Get Positions
+(20, 2)
+(60, 2)
+==> Get real IOU
+Ground Truth Area : 95798, Predict Area : 95140, ratio: 0.99313
+0.943666273057
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 25319.5137,  25319.5137])
+tensor([ 25468.6934,  25468.6934])
+('Ratio: ', tensor([ 0.9941,  0.9941]))
+tensor(17111.7617)
+tensor(-17241.7559)
+tensor(-17037.9688)
+tensor(17179.0352)
+tensor(17111.7617)
+tensor(-17241.7559)
+tensor(-17037.9688)
+tensor(17179.0352)
+('==> Intersection ', tensor(34285.2617))
+('==> Ground Area ', tensor([ 25468.6934,  25468.6934]), tensor([ 25319.5137,  25319.5137]))
+('==> Union ', tensor([ 16502.9453,  16502.9453]))
+Real IOU: 0.9437, Pred IOU: 2.0775
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000127_000019_59_info.json
+==> Get Positions
+(20, 2)
+(31, 2)
+==> Get real IOU
+Ground Truth Area : 1865, Predict Area : 1703, ratio: 0.91314
+0.654149281409
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 11500.4697,  11500.4697])
+tensor([ 12291.5547,  12291.5547])
+('Ratio: ', tensor([ 0.9356,  0.9356]))
+tensor(6859.2861)
+tensor(-6833.3477)
+tensor(-6823.7764)
+tensor(6892.9604)
+tensor(6859.2861)
+tensor(-6833.3477)
+tensor(-6823.7764)
+tensor(6892.9604)
+('==> Intersection ', tensor(13704.6855))
+('==> Ground Area ', tensor([ 12291.5547,  12291.5547]), tensor([ 11500.4697,  11500.4697]))
+('==> Union ', tensor([ 10087.3379,  10087.3379]))
+Real IOU: 0.6541, Pred IOU: 1.3586
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_049698_78_info.json
+==> Get Positions
+(20, 2)
+(11, 2)
+==> Get real IOU
+Ground Truth Area : 154, Predict Area : 166, ratio: 1.07792
+0.904761904762
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 4275.6851,  4275.6851])
+tensor([ 4061.1194,  4061.1194])
+('Ratio: ', tensor([ 1.0528,  1.0528]))
+tensor(1731.7051)
+tensor(-1834.6748)
+tensor(-1822.9756)
+tensor(1699.3267)
+tensor(1731.7051)
+tensor(-1834.6748)
+tensor(-1822.9756)
+tensor(1699.3267)
+('==> Intersection ', tensor(3544.3408))
+('==> Ground Area ', tensor([ 4061.1194,  4061.1194]), tensor([ 4275.6851,  4275.6851]))
+('==> Union ', tensor([ 4792.4639,  4792.4639]))
+Real IOU: 0.9048, Pred IOU: 0.7396
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000148_000019_58_info.json
+==> Get Positions
+(20, 2)
+(33, 2)
+==> Get real IOU
+Ground Truth Area : 2137, Predict Area : 2314, ratio: 1.08283
+0.803484602917
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 7201.0361,  7201.0361])
+tensor([ 6599.9238,  6599.9238])
+('Ratio: ', tensor([ 1.0911,  1.0911]))
+tensor(1188.1428)
+tensor(-1184.7906)
+tensor(-1185.9590)
+tensor(1079.5547)
+tensor(1188.1428)
+tensor(-1184.7906)
+tensor(-1185.9590)
+tensor(1079.5547)
+('==> Intersection ', tensor(2319.2236))
+('==> Ground Area ', tensor([ 6599.9238,  6599.9238]), tensor([ 7201.0361,  7201.0361]))
+('==> Union ', tensor([ 11481.7363,  11481.7363]))
+Real IOU: 0.8035, Pred IOU: 0.2020
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000000_016005_79_info.json
+==> Get Positions
+(20, 2)
+(17, 2)
+==> Get real IOU
+Ground Truth Area : 995, Predict Area : 958, ratio: 0.96281
+0.916584887144
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 11185.8262,  11185.8262])
+tensor([ 11813.9277,  11813.9277])
+('Ratio: ', tensor([ 0.9468,  0.9468]))
+tensor(6530.9146)
+tensor(-6551.0854)
+tensor(-6448.7036)
+tensor(6554.0747)
+tensor(6530.9146)
+tensor(-6551.0854)
+tensor(-6448.7036)
+tensor(6554.0747)
+('==> Intersection ', tensor(13042.3887))
+('==> Ground Area ', tensor([ 11813.9277,  11813.9277]), tensor([ 11185.8262,  11185.8262]))
+('==> Union ', tensor([ 9957.3652,  9957.3652]))
+Real IOU: 0.9166, Pred IOU: 1.3098
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_020287_123_info.json
+==> Get Positions
+(20, 2)
+(52, 2)
+==> Get real IOU
+Ground Truth Area : 11603, Predict Area : 11238, ratio: 0.96854
+0.940776616535
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 19619.8906,  19619.8906])
+tensor([ 20212.4473,  20212.4473])
+('Ratio: ', tensor([ 0.9707,  0.9707]))
+tensor(11965.2422)
+tensor(-11943.6865)
+tensor(-11883.2080)
+tensor(12001.1572)
+tensor(11965.2422)
+tensor(-11943.6865)
+tensor(-11883.2080)
+tensor(12001.1572)
+('==> Intersection ', tensor(23896.6465))
+('==> Ground Area ', tensor([ 20212.4473,  20212.4473]), tensor([ 19619.8906,  19619.8906]))
+('==> Union ', tensor([ 15935.6895,  15935.6895]))
+Real IOU: 0.9408, Pred IOU: 1.4996
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000077_000019_26_info.json
+==> Get Positions
+(20, 2)
+(16, 2)
+==> Get real IOU
+Ground Truth Area : 7196, Predict Area : 5070, ratio: 0.70456
+0.66544467074
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 16164.0762,  16164.0762])
+tensor([ 22957.0879,  22957.0879])
+('Ratio: ', tensor([ 0.7041,  0.7041]))
+tensor(11732.0645)
+tensor(-11910.5137)
+tensor(-11664.7500)
+tensor(11787.0293)
+tensor(11732.0645)
+tensor(-11910.5137)
+tensor(-11664.7500)
+tensor(11787.0293)
+('==> Intersection ', tensor(23547.1797))
+('==> Ground Area ', tensor([ 22957.0879,  22957.0879]), tensor([ 16164.0762,  16164.0762]))
+('==> Union ', tensor([ 15573.9844,  15573.9844]))
+Real IOU: 0.6654, Pred IOU: 1.5120
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000151_000019_51_info.json
+==> Get Positions
+(20, 2)
+(10, 2)
+==> Get real IOU
+Ground Truth Area : 226, Predict Area : 364, ratio: 1.61062
+0.486146095718
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 8150.9102,  8150.9102])
+tensor([ 5053.8848,  5053.8848])
+('Ratio: ', tensor([ 1.6128,  1.6128]))
+tensor(2464.6106)
+tensor(-2477.8384)
+tensor(-2498.6907)
+tensor(2391.2041)
+tensor(2464.6106)
+tensor(-2477.8384)
+tensor(-2498.6907)
+tensor(2391.2041)
+('==> Intersection ', tensor(4916.1719))
+('==> Ground Area ', tensor([ 5053.8848,  5053.8848]), tensor([ 8150.9102,  8150.9102]))
+('==> Union ', tensor([ 8288.6230,  8288.6230]))
+Real IOU: 0.4861, Pred IOU: 0.5931
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000071_000019_114_info.json
+==> Get Positions
+(20, 2)
+(19, 2)
+==> Get real IOU
+Ground Truth Area : 487, Predict Area : 282, ratio: 0.57906
+0.467557251908
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 3247.5620,  3247.5620])
+tensor([ 6104.7456,  6104.7456])
+('Ratio: ', tensor([ 0.5320,  0.5320]))
+tensor(542.4022)
+tensor(-555.3639)
+tensor(-564.8026)
+tensor(572.4581)
+tensor(542.4022)
+tensor(-555.3639)
+tensor(-564.8026)
+tensor(572.4581)
+('==> Intersection ', tensor(1117.5134))
+('==> Ground Area ', tensor([ 6104.7456,  6104.7456]), tensor([ 3247.5620,  3247.5620]))
+('==> Union ', tensor([ 8234.7939,  8234.7939]))
+Real IOU: 0.4676, Pred IOU: 0.1357
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_055603_5_info.json
+==> Get Positions
+(20, 2)
+(28, 2)
+==> Get real IOU
+Ground Truth Area : 3463, Predict Area : 2295, ratio: 0.66272
+0.571077762619
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 7390.9229,  7390.9229])
+tensor([ 11235.9980,  11235.9980])
+('Ratio: ', tensor([ 0.6578,  0.6578]))
+tensor(3524.5579)
+tensor(-3597.7864)
+tensor(-3584.6492)
+tensor(3608.7881)
+tensor(3524.5579)
+tensor(-3597.7864)
+tensor(-3584.6492)
+tensor(3608.7881)
+('==> Intersection ', tensor(7157.8906))
+('==> Ground Area ', tensor([ 11235.9980,  11235.9980]), tensor([ 7390.9229,  7390.9229]))
+('==> Union ', tensor([ 11469.0312,  11469.0312]))
+Real IOU: 0.5711, Pred IOU: 0.6241
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000035_000019_11_info.json
+==> Get Positions
+(20, 2)
+(45, 2)
+==> Get real IOU
+Ground Truth Area : 19393, Predict Area : 20364, ratio: 1.05007
+0.873033072647
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 17678.4121,  17678.4121])
+tensor([ 16772.4805,  16772.4805])
+('Ratio: ', tensor([ 1.0540,  1.0540]))
+tensor(12190.9893)
+tensor(-12163.6250)
+tensor(-12064.7334)
+tensor(12210.5518)
+tensor(12190.9893)
+tensor(-12163.6250)
+tensor(-12064.7334)
+tensor(12210.5518)
+('==> Intersection ', tensor(24314.9512))
+('==> Ground Area ', tensor([ 16772.4805,  16772.4805]), tensor([ 17678.4121,  17678.4121]))
+('==> Union ', tensor([ 10135.9395,  10135.9395]))
+Real IOU: 0.8730, Pred IOU: 2.3989
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000000_016286_124_info.json
+==> Get Positions
+(20, 2)
+(57, 2)
+==> Get real IOU
+Ground Truth Area : 34514, Predict Area : 32311, ratio: 0.93617
+0.881175576387
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 9158.7676,  9158.7676])
+tensor([ 9784.1260,  9784.1260])
+('Ratio: ', tensor([ 0.9361,  0.9361]))
+tensor(1337.8944)
+tensor(-1374.1560)
+tensor(-1315.4893)
+tensor(1344.1985)
+tensor(1337.8944)
+tensor(-1374.1560)
+tensor(-1315.4893)
+tensor(1344.1985)
+('==> Intersection ', tensor(2685.8691))
+('==> Ground Area ', tensor([ 9784.1260,  9784.1260]), tensor([ 9158.7676,  9158.7676]))
+('==> Union ', tensor([ 16257.0254,  16257.0254]))
+Real IOU: 0.8812, Pred IOU: 0.1652
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000110_000019_68_info.json
+==> Get Positions
+(20, 2)
+(29, 2)
+==> Get real IOU
+Ground Truth Area : 2276, Predict Area : 2287, ratio: 1.00483
+0.815758058098
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 8718.4980,  8718.4980])
+tensor([ 8534.,  8534.])
+('Ratio: ', tensor([ 1.0216,  1.0216]))
+tensor(2861.1299)
+tensor(-3024.7749)
+tensor(-2976.4556)
+tensor(3054.4851)
+tensor(2861.1299)
+tensor(-3024.7749)
+tensor(-2976.4556)
+tensor(3054.4851)
+('==> Intersection ', tensor(5958.4224))
+('==> Ground Area ', tensor([ 8534.,  8534.]), tensor([ 8718.4980,  8718.4980]))
+('==> Union ', tensor([ 11294.0762,  11294.0762]))
+Real IOU: 0.8158, Pred IOU: 0.5276
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000108_000019_62_info.json
+==> Get Positions
+(20, 2)
+(14, 2)
+==> Get real IOU
+Ground Truth Area : 1778, Predict Area : 1755, ratio: 0.98706
+0.94762954796
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 16163.1807,  16163.1807])
+tensor([ 16444.6406,  16444.6406])
+('Ratio: ', tensor([ 0.9829,  0.9829]))
+tensor(11692.7842)
+tensor(-11749.9609)
+tensor(-11588.3945)
+tensor(11736.8379)
+tensor(11692.7842)
+tensor(-11749.9609)
+tensor(-11588.3945)
+tensor(11736.8379)
+('==> Intersection ', tensor(23383.9863))
+('==> Ground Area ', tensor([ 16444.6406,  16444.6406]), tensor([ 16163.1807,  16163.1807]))
+('==> Union ', tensor([ 9223.8340,  9223.8340]))
+Real IOU: 0.9476, Pred IOU: 2.5352
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_016273_31_info.json
+==> Get Positions
+(20, 2)
+(49, 2)
+==> Get real IOU
+Ground Truth Area : 19835, Predict Area : 20272, ratio: 1.02203
+0.940254462774
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 20911.7051,  20911.7051])
+tensor([ 20438.7598,  20438.7598])
+('Ratio: ', tensor([ 1.0231,  1.0231]))
+tensor(8792.1367)
+tensor(-8847.5615)
+tensor(-8627.0977)
+tensor(8810.5645)
+tensor(8792.1367)
+tensor(-8847.5615)
+tensor(-8627.0977)
+tensor(8810.5645)
+('==> Intersection ', tensor(17538.6797))
+('==> Ground Area ', tensor([ 20438.7598,  20438.7598]), tensor([ 20911.7051,  20911.7051]))
+('==> Union ', tensor([ 23811.7852,  23811.7852]))
+Real IOU: 0.9403, Pred IOU: 0.7366
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_065617_40_info.json
+==> Get Positions
+(20, 2)
+(32, 2)
+==> Get real IOU
+Ground Truth Area : 499, Predict Area : 493, ratio: 0.98798
+0.728222996516
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 5430.1523,  5430.1523])
+tensor([ 5442.3701,  5442.3701])
+('Ratio: ', tensor([ 0.9978,  0.9978]))
+tensor(1365.2312)
+tensor(-1362.1506)
+tensor(-1364.2162)
+tensor(1279.5560)
+tensor(1365.2312)
+tensor(-1362.1506)
+tensor(-1364.2162)
+tensor(1279.5560)
+('==> Intersection ', tensor(2685.5769))
+('==> Ground Area ', tensor([ 5442.3701,  5442.3701]), tensor([ 5430.1523,  5430.1523]))
+('==> Union ', tensor([ 8186.9453,  8186.9453]))
+Real IOU: 0.7282, Pred IOU: 0.3280
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000085_000019_86_info.json
+==> Get Positions
+(20, 2)
+(31, 2)
+==> Get real IOU
+Ground Truth Area : 22035, Predict Area : 22870, ratio: 1.03789
+0.872914581248
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 13509.5596,  13509.5596])
+tensor([ 13003.7295,  13003.7295])
+('Ratio: ', tensor([ 1.0389,  1.0389]))
+tensor(3010.8799)
+tensor(-3045.3489)
+tensor(-2956.8840)
+tensor(3057.1221)
+tensor(3010.8799)
+tensor(-3045.3489)
+tensor(-2956.8840)
+tensor(3057.1221)
+('==> Intersection ', tensor(6035.1172))
+('==> Ground Area ', tensor([ 13003.7295,  13003.7295]), tensor([ 13509.5596,  13509.5596]))
+('==> Union ', tensor([ 20478.1719,  20478.1719]))
+Real IOU: 0.8729, Pred IOU: 0.2947
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_054415_100_info.json
+==> Get Positions
+(20, 2)
+(39, 2)
+==> Get real IOU
+Ground Truth Area : 3507, Predict Area : 3835, ratio: 1.09353
+0.851235501765
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 9491.3018,  9491.3018])
+tensor([ 8619.5215,  8619.5215])
+('Ratio: ', tensor([ 1.1011,  1.1011]))
+tensor(3059.8147)
+tensor(-3088.1643)
+tensor(-3096.8792)
+tensor(3090.1255)
+tensor(3059.8147)
+tensor(-3088.1643)
+tensor(-3096.8792)
+tensor(3090.1255)
+('==> Intersection ', tensor(6167.4917))
+('==> Ground Area ', tensor([ 8619.5215,  8619.5215]), tensor([ 9491.3018,  9491.3018]))
+('==> Union ', tensor([ 11943.3320,  11943.3320]))
+Real IOU: 0.8512, Pred IOU: 0.5164
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000141_000019_55_info.json
+==> Get Positions
+(20, 2)
+(36, 2)
+==> Get real IOU
+Ground Truth Area : 3460, Predict Area : 3689, ratio: 1.06618
+0.712335329341
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 10375.0244,  10375.0244])
+tensor([ 9594.5791,  9594.5791])
+('Ratio: ', tensor([ 1.0813,  1.0813]))
+tensor(3226.1201)
+tensor(-3200.9026)
+tensor(-3241.4797)
+tensor(3151.3096)
+tensor(3226.1201)
+tensor(-3200.9026)
+tensor(-3241.4797)
+tensor(3151.3096)
+('==> Intersection ', tensor(6409.9062))
+('==> Ground Area ', tensor([ 9594.5791,  9594.5791]), tensor([ 10375.0244,  10375.0244]))
+('==> Union ', tensor([ 13559.6973,  13559.6973]))
+Real IOU: 0.7123, Pred IOU: 0.4727
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_016029_9_info.json
+==> Get Positions
+(20, 2)
+(12, 2)
+==> Get real IOU
+Ground Truth Area : 377, Predict Area : 400, ratio: 1.06101
+0.867788461538
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 4098.9810,  4098.9810])
+tensor([ 3883.4451,  3883.4451])
+('Ratio: ', tensor([ 1.0555,  1.0555]))
+tensor(311.1927)
+tensor(-293.1164)
+tensor(-306.4124)
+tensor(252.0808)
+tensor(311.1927)
+tensor(-293.1164)
+tensor(-306.4124)
+tensor(252.0808)
+('==> Intersection ', tensor(581.4011))
+('==> Ground Area ', tensor([ 3883.4451,  3883.4451]), tensor([ 4098.9810,  4098.9810]))
+('==> Union ', tensor([ 7401.0244,  7401.0244]))
+Real IOU: 0.8678, Pred IOU: 0.0786
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000000_013382_34_info.json
+==> Get Positions
+(20, 2)
+(8, 2)
+==> Get real IOU
+Ground Truth Area : 237, Predict Area : 303, ratio: 1.27848
+0.346633416459
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 3372.6177,  3372.6177])
+tensor([ 2602.5183,  2602.5183])
+('Ratio: ', tensor([ 1.2959,  1.2959]))
+tensor(239.3249)
+tensor(-195.8183)
+tensor(-200.2836)
+tensor(197.4800)
+tensor(239.3249)
+tensor(-195.8183)
+tensor(-200.2836)
+tensor(197.4800)
+('==> Intersection ', tensor(416.4534))
+('==> Ground Area ', tensor([ 2602.5183,  2602.5183]), tensor([ 3372.6177,  3372.6177]))
+('==> Union ', tensor([ 5558.6821,  5558.6821]))
+Real IOU: 0.3466, Pred IOU: 0.0749
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_044525_57_info.json
+==> Get Positions
+(20, 2)
+(15, 2)
+==> Get real IOU
+Ground Truth Area : 202, Predict Area : 198, ratio: 0.98020
+0.762114537445
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 3355.6003,  3355.6003])
+tensor([ 3489.9587,  3489.9587])
+('Ratio: ', tensor([ 0.9615,  0.9615]))
+tensor(863.5325)
+tensor(-846.9222)
+tensor(-862.0366)
+tensor(869.1337)
+tensor(863.5325)
+tensor(-846.9222)
+tensor(-862.0366)
+tensor(869.1337)
+('==> Intersection ', tensor(1720.8126))
+('==> Ground Area ', tensor([ 3489.9587,  3489.9587]), tensor([ 3355.6003,  3355.6003]))
+('==> Union ', tensor([ 5124.7466,  5124.7466]))
+Real IOU: 0.7621, Pred IOU: 0.3358
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000000_016005_21_info.json
+==> Get Positions
+(20, 2)
+(10, 2)
+==> Get real IOU
+Ground Truth Area : 390, Predict Area : 311, ratio: 0.79744
+0.337786259542
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 7151.3052,  7151.3052])
+tensor([ 9511.4580,  9511.4580])
+('Ratio: ', tensor([ 0.7519,  0.7519]))
+tensor(4463.5176)
+tensor(-4425.6455)
+tensor(-4409.2456)
+tensor(4398.0220)
+tensor(4463.5176)
+tensor(-4425.6455)
+tensor(-4409.2456)
+tensor(4398.0220)
+('==> Intersection ', tensor(8848.2158))
+('==> Ground Area ', tensor([ 9511.4580,  9511.4580]), tensor([ 7151.3052,  7151.3052]))
+('==> Union ', tensor([ 7814.5479,  7814.5479]))
+Real IOU: 0.3378, Pred IOU: 1.1323
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000072_000019_52_info.json
+==> Get Positions
+(20, 2)
+(7, 2)
+==> Get real IOU
+Ground Truth Area : 1061, Predict Area : 4422, ratio: 4.16777
+0.155045291763
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 70372.3828,  70372.3828])
+tensor([ 2877.8630,  2877.8630])
+('Ratio: ', tensor([ 24.4530,  24.4530]))
+tensor(704.9527)
+tensor(-871.1367)
+tensor(-312.2326)
+tensor(800.1544)
+tensor(704.9527)
+tensor(-871.1367)
+tensor(-312.2326)
+tensor(800.1544)
+('==> Intersection ', tensor(1344.2380))
+('==> Ground Area ', tensor([ 2877.8630,  2877.8630]), tensor([ 70372.3828,  70372.3828]))
+('==> Union ', tensor([ 71906.0078,  71906.0078]))
+Real IOU: 0.1550, Pred IOU: 0.0187
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000001_000019_34_info.json
+==> Get Positions
+(20, 2)
+(60, 2)
+==> Get real IOU
+Ground Truth Area : 192567, Predict Area : 193367, ratio: 1.00415
+0.932694667154
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 31606.6543,  31606.6543])
+tensor([ 31446.5312,  31446.5312])
+('Ratio: ', tensor([ 1.0051,  1.0051]))
+tensor(26549.3750)
+tensor(-26548.1934)
+tensor(-26529.5566)
+tensor(26597.4297)
+tensor(26549.3750)
+tensor(-26548.1934)
+tensor(-26529.5566)
+tensor(26597.4297)
+('==> Intersection ', tensor(53112.2812))
+('==> Ground Area ', tensor([ 31446.5312,  31446.5312]), tensor([ 31606.6543,  31606.6543]))
+('==> Union ', tensor([ 9940.9062,  9940.9062]))
+Real IOU: 0.9327, Pred IOU: 5.3428
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_004859_31_info.json
+==> Get Positions
+(20, 2)
+(18, 2)
+==> Get real IOU
+Ground Truth Area : 380, Predict Area : 323, ratio: 0.85000
+0.748756218905
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 4969.3760,  4969.3760])
+tensor([ 6073.2793,  6073.2793])
+('Ratio: ', tensor([ 0.8182,  0.8182]))
+tensor(1463.6367)
+tensor(-1473.3027)
+tensor(-1464.5814)
+tensor(1474.7155)
+tensor(1463.6367)
+tensor(-1473.3027)
+tensor(-1464.5814)
+tensor(1474.7155)
+('==> Intersection ', tensor(2938.1182))
+('==> Ground Area ', tensor([ 6073.2793,  6073.2793]), tensor([ 4969.3760,  4969.3760]))
+('==> Union ', tensor([ 8104.5371,  8104.5371]))
+Real IOU: 0.7488, Pred IOU: 0.3625
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_030310_72_info.json
+==> Get Positions
+(20, 2)
+(23, 2)
+==> Get real IOU
+Ground Truth Area : 354, Predict Area : 463, ratio: 1.30791
+0.716386554622
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 5225.0635,  5225.0635])
+tensor([ 3922.4487,  3922.4487])
+('Ratio: ', tensor([ 1.3321,  1.3321]))
+tensor(601.5349)
+tensor(-610.0505)
+tensor(-608.2572)
+tensor(590.6110)
+tensor(601.5349)
+tensor(-610.0505)
+tensor(-608.2572)
+tensor(590.6110)
+('==> Intersection ', tensor(1205.2268))
+('==> Ground Area ', tensor([ 3922.4487,  3922.4487]), tensor([ 5225.0635,  5225.0635]))
+('==> Union ', tensor([ 7942.2852,  7942.2852]))
+Real IOU: 0.7164, Pred IOU: 0.1517
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000097_000019_42_info.json
+==> Get Positions
+(20, 2)
+(24, 2)
+==> Get real IOU
+Ground Truth Area : 2371, Predict Area : 2407, ratio: 1.01518
+0.872257053292
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 11769.9863,  11769.9863])
+tensor([ 11557.2207,  11557.2207])
+('Ratio: ', tensor([ 1.0184,  1.0184]))
+tensor(5622.8940)
+tensor(-5589.7388)
+tensor(-5597.4199)
+tensor(5605.8779)
+tensor(5622.8940)
+tensor(-5589.7388)
+tensor(-5597.4199)
+tensor(5605.8779)
+('==> Intersection ', tensor(11207.9658))
+('==> Ground Area ', tensor([ 11557.2207,  11557.2207]), tensor([ 11769.9863,  11769.9863]))
+('==> Union ', tensor([ 12119.2412,  12119.2412]))
+Real IOU: 0.8723, Pred IOU: 0.9248
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_012738_35_info.json
+==> Get Positions
+(20, 2)
+(55, 2)
+==> Get real IOU
+Ground Truth Area : 8848, Predict Area : 6123, ratio: 0.69202
+0.563387635756
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 3716.3123,  3716.3123])
+tensor([ 5421.0498,  5421.0498])
+('Ratio: ', tensor([ 0.6855,  0.6855]))
+tensor(369.2724)
+tensor(-361.9964)
+tensor(-356.3676)
+tensor(319.9775)
+tensor(369.2724)
+tensor(-361.9964)
+tensor(-356.3676)
+tensor(319.9775)
+('==> Intersection ', tensor(703.8070))
+('==> Ground Area ', tensor([ 5421.0498,  5421.0498]), tensor([ 3716.3123,  3716.3123]))
+('==> Union ', tensor([ 8433.5557,  8433.5557]))
+Real IOU: 0.5634, Pred IOU: 0.0835
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000131_000019_67_info.json
+==> Get Positions
+(20, 2)
+(7, 2)
+==> Get real IOU
+Ground Truth Area : 316, Predict Area : 310, ratio: 0.98101
+0.868656716418
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 8151.6387,  8151.6387])
+tensor([ 8432.3145,  8432.3145])
+('Ratio: ', tensor([ 0.9667,  0.9667]))
+tensor(5534.8247)
+tensor(-5635.6567)
+tensor(-5605.6030)
+tensor(5438.9824)
+tensor(5534.8247)
+tensor(-5635.6567)
+tensor(-5605.6030)
+tensor(5438.9824)
+('==> Intersection ', tensor(11107.5332))
+('==> Ground Area ', tensor([ 8432.3145,  8432.3145]), tensor([ 8151.6387,  8151.6387]))
+('==> Union ', tensor([ 5476.4199,  5476.4199]))
+Real IOU: 0.8687, Pred IOU: 2.0282
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_020693_52_info.json
+==> Get Positions
+(20, 2)
+(19, 2)
+==> Get real IOU
+Ground Truth Area : 533, Predict Area : 533, ratio: 1.00000
+0.841105354059
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 7746.5649,  7746.5649])
+tensor([ 7760.,  7760.])
+('Ratio: ', tensor([ 0.9983,  0.9983]))
+tensor(3954.6926)
+tensor(-4034.5034)
+tensor(-3917.1746)
+tensor(4003.2607)
+tensor(3954.6926)
+tensor(-4034.5034)
+tensor(-3917.1746)
+tensor(4003.2607)
+('==> Intersection ', tensor(7954.8154))
+('==> Ground Area ', tensor([ 7760.,  7760.]), tensor([ 7746.5649,  7746.5649]))
+('==> Union ', tensor([ 7551.7490,  7551.7490]))
+Real IOU: 0.8411, Pred IOU: 1.0534
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_077233_51_info.json
+==> Get Positions
+(20, 2)
+(8, 2)
+==> Get real IOU
+Ground Truth Area : 9940, Predict Area : 7925, ratio: 0.79728
+0.67306611725
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 28459.6230,  28459.6230])
+tensor([ 12202.1992,  12202.1992])
+('Ratio: ', tensor([ 2.3323,  2.3323]))
+tensor(11299.5693)
+tensor(-11360.7520)
+tensor(-11229.8027)
+tensor(11248.9443)
+tensor(11299.5693)
+tensor(-11360.7520)
+tensor(-11229.8027)
+tensor(11248.9443)
+('==> Intersection ', tensor(22569.5352))
+('==> Ground Area ', tensor([ 12202.1992,  12202.1992]), tensor([ 28459.6230,  28459.6230]))
+('==> Union ', tensor([ 18092.2852,  18092.2852]))
+Real IOU: 0.6731, Pred IOU: 1.2475
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000160_000019_58_info.json
+==> Get Positions
+(20, 2)
+(38, 2)
+==> Get real IOU
+Ground Truth Area : 10448, Predict Area : 10807, ratio: 1.03436
+0.866438356164
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 14887.9336,  14887.9336])
+tensor([ 14300.1816,  14300.1816])
+('Ratio: ', tensor([ 1.0411,  1.0411]))
+tensor(2761.8396)
+tensor(-2784.8523)
+tensor(-2696.2932)
+tensor(2798.6714)
+tensor(2761.8396)
+tensor(-2784.8523)
+tensor(-2696.2932)
+tensor(2798.6714)
+('==> Intersection ', tensor(5520.8281))
+('==> Ground Area ', tensor([ 14300.1816,  14300.1816]), tensor([ 14887.9336,  14887.9336]))
+('==> Union ', tensor([ 23667.2871,  23667.2871]))
+Real IOU: 0.8664, Pred IOU: 0.2333
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_012038_58_info.json
+==> Get Positions
+(20, 2)
+(49, 2)
+==> Get real IOU
+Ground Truth Area : 2305, Predict Area : 2333, ratio: 1.01215
+0.179552390641
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 9131.4561,  9131.4561])
+tensor([ 8154.9766,  8154.9766])
+('Ratio: ', tensor([ 1.1197,  1.1197]))
+tensor(3665.7683)
+tensor(-3625.6648)
+tensor(-3693.9033)
+tensor(3650.7417)
+tensor(3665.7683)
+tensor(-3625.6648)
+tensor(-3693.9033)
+tensor(3650.7417)
+('==> Intersection ', tensor(7318.0391))
+('==> Ground Area ', tensor([ 8154.9766,  8154.9766]), tensor([ 9131.4561,  9131.4561]))
+('==> Union ', tensor([ 9968.3945,  9968.3945]))
+Real IOU: 0.1796, Pred IOU: 0.7341
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_064651_33_info.json
+==> Get Positions
+(20, 2)
+(18, 2)
+==> Get real IOU
+Ground Truth Area : 976, Predict Area : 956, ratio: 0.97951
+0.834757834758
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 14349.8809,  14349.8809])
+tensor([ 14704.,  14704.])
+('Ratio: ', tensor([ 0.9759,  0.9759]))
+tensor(11116.0234)
+tensor(-11260.8184)
+tensor(-11217.7275)
+tensor(10968.7646)
+tensor(11116.0234)
+tensor(-11260.8184)
+tensor(-11217.7275)
+tensor(10968.7646)
+('==> Intersection ', tensor(22281.6680))
+('==> Ground Area ', tensor([ 14704.,  14704.]), tensor([ 14349.8809,  14349.8809]))
+('==> Union ', tensor([ 6772.2129,  6772.2129]))
+Real IOU: 0.8348, Pred IOU: 3.2902
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_013016_37_info.json
+==> Get Positions
+(20, 2)
+(15, 2)
+==> Get real IOU
+Ground Truth Area : 3676, Predict Area : 3784, ratio: 1.02938
+0.711401697637
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 64750.8203,  64750.8203])
+tensor([ 3688.6245,  3688.6245])
+('Ratio: ', tensor([ 17.5542,  17.5542]))
+tensor(2661.1687)
+tensor(-915.8420)
+tensor(-1803.5765)
+tensor(2635.4260)
+tensor(2661.1687)
+tensor(-915.8420)
+tensor(-1803.5765)
+tensor(2635.4260)
+('==> Intersection ', tensor(4008.0066))
+('==> Ground Area ', tensor([ 3688.6245,  3688.6245]), tensor([ 64750.8203,  64750.8203]))
+('==> Union ', tensor([ 64431.4375,  64431.4375]))
+Real IOU: 0.7114, Pred IOU: 0.0622
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000040_000019_83_info.json
+==> Get Positions
+(20, 2)
+(42, 2)
+==> Get real IOU
+Ground Truth Area : 24678, Predict Area : 25154, ratio: 1.01929
+0.764339328707
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 5716.5322,  5716.5322])
+tensor([ 5593.4927,  5593.4927])
+('Ratio: ', tensor([ 1.0220,  1.0220]))
+tensor(161.1584)
+tensor(-74.4091)
+tensor(-80.9763)
+tensor(78.2645)
+tensor(161.1584)
+tensor(-74.4091)
+tensor(-80.9763)
+tensor(78.2645)
+('==> Intersection ', tensor(197.4042))
+('==> Ground Area ', tensor([ 5593.4927,  5593.4927]), tensor([ 5716.5322,  5716.5322]))
+('==> Union ', tensor([ 11112.6211,  11112.6211]))
+Real IOU: 0.7643, Pred IOU: 0.0178
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_010830_39_info.json
+==> Get Positions
+(20, 2)
+(64, 2)
+==> Get real IOU
+Ground Truth Area : 15326, Predict Area : 15711, ratio: 1.02512
+0.796954608615
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 8033.3315,  8033.3315])
+tensor([ 7790.0723,  7790.0723])
+('Ratio: ', tensor([ 1.0312,  1.0312]))
+tensor(1033.8339)
+tensor(-1016.5851)
+tensor(-1026.3799)
+tensor(981.7742)
+tensor(1033.8339)
+tensor(-1016.5851)
+tensor(-1026.3799)
+tensor(981.7742)
+('==> Intersection ', tensor(2029.2864))
+('==> Ground Area ', tensor([ 7790.0723,  7790.0723]), tensor([ 8033.3315,  8033.3315]))
+('==> Union ', tensor([ 13794.1182,  13794.1182]))
+Real IOU: 0.7970, Pred IOU: 0.1471
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000078_000019_22_info.json
+==> Get Positions
+(20, 2)
+(16, 2)
+==> Get real IOU
+Ground Truth Area : 2101, Predict Area : 2224, ratio: 1.05854
+0.901098901099
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 20079.9863,  20079.9863])
+tensor([ 18901.9160,  18901.9160])
+('Ratio: ', tensor([ 1.0623,  1.0623]))
+tensor(16629.4141)
+tensor(-16823.1934)
+tensor(-16642.4434)
+tensor(16693.6426)
+tensor(16629.4141)
+tensor(-16823.1934)
+tensor(-16642.4434)
+tensor(16693.6426)
+('==> Intersection ', tensor(33394.3477))
+('==> Ground Area ', tensor([ 18901.9160,  18901.9160]), tensor([ 20079.9863,  20079.9863]))
+('==> Union ', tensor([ 5587.5547,  5587.5547]))
+Real IOU: 0.9011, Pred IOU: 5.9766
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000038_000019_45_info.json
+==> Get Positions
+(20, 2)
+(19, 2)
+==> Get real IOU
+Ground Truth Area : 1013, Predict Area : 892, ratio: 0.88055
+0.803977272727
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 12806.4873,  12806.4873])
+tensor([ 14694.5127,  14694.5127])
+('Ratio: ', tensor([ 0.8715,  0.8715]))
+tensor(9784.1592)
+tensor(-9690.6631)
+tensor(-9673.1787)
+tensor(9764.5811)
+tensor(9784.1592)
+tensor(-9690.6631)
+tensor(-9673.1787)
+tensor(9764.5811)
+('==> Intersection ', tensor(19456.2910))
+('==> Ground Area ', tensor([ 14694.5127,  14694.5127]), tensor([ 12806.4873,  12806.4873]))
+('==> Union ', tensor([ 8044.7090,  8044.7090]))
+Real IOU: 0.8040, Pred IOU: 2.4185
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_054884_38_info.json
+==> Get Positions
+(20, 2)
+(16, 2)
+==> Get real IOU
+Ground Truth Area : 3704, Predict Area : 4111, ratio: 1.10988
+0.688634399309
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 21790.7988,  21790.7988])
+tensor([ 7083.2231,  7083.2231])
+('Ratio: ', tensor([ 3.0764,  3.0764]))
+tensor(5595.2349)
+tensor(-5482.0493)
+tensor(-5577.3687)
+tensor(5540.6704)
+tensor(5595.2349)
+tensor(-5482.0493)
+tensor(-5577.3687)
+tensor(5540.6704)
+('==> Intersection ', tensor(11097.6611))
+('==> Ground Area ', tensor([ 7083.2231,  7083.2231]), tensor([ 21790.7988,  21790.7988]))
+('==> Union ', tensor([ 17776.3594,  17776.3594]))
+Real IOU: 0.6886, Pred IOU: 0.6243
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000014_000019_64_info.json
+==> Get Positions
+(20, 2)
+(24, 2)
+==> Get real IOU
+Ground Truth Area : 993, Predict Area : 900, ratio: 0.90634
+0.832526621491
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 8721.3086,  8721.3086])
+tensor([ 9716.9229,  9716.9229])
+('Ratio: ', tensor([ 0.8975,  0.8975]))
+tensor(4492.3560)
+tensor(-4628.3433)
+tensor(-4544.8950)
+tensor(4384.5581)
+tensor(4492.3560)
+tensor(-4628.3433)
+tensor(-4544.8950)
+tensor(4384.5581)
+('==> Intersection ', tensor(9025.0762))
+('==> Ground Area ', tensor([ 9716.9229,  9716.9229]), tensor([ 8721.3086,  8721.3086]))
+('==> Union ', tensor([ 9413.1543,  9413.1543]))
+Real IOU: 0.8325, Pred IOU: 0.9588
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000068_000019_92_info.json
+==> Get Positions
+(20, 2)
+(20, 2)
+==> Get real IOU
+Ground Truth Area : 2076, Predict Area : 2180, ratio: 1.05010
+0.91452991453
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 14590.3115,  14590.3115])
+tensor([ 13823.5762,  13823.5762])
+('Ratio: ', tensor([ 1.0555,  1.0555]))
+tensor(7998.1924)
+tensor(-7945.7676)
+tensor(-7899.0527)
+tensor(8014.4961)
+tensor(7998.1924)
+tensor(-7945.7676)
+tensor(-7899.0527)
+tensor(8014.4961)
+('==> Intersection ', tensor(15928.7549))
+('==> Ground Area ', tensor([ 13823.5762,  13823.5762]), tensor([ 14590.3115,  14590.3115]))
+('==> Union ', tensor([ 12485.1318,  12485.1318]))
+Real IOU: 0.9145, Pred IOU: 1.2758
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000134_000019_38_info.json
+==> Get Positions
+(20, 2)
+(16, 2)
+==> Get real IOU
+Ground Truth Area : 1188, Predict Area : 999, ratio: 0.84091
+0.612831858407
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 6769.6084,  6769.6084])
+tensor([ 8051.9053,  8051.9053])
+('Ratio: ', tensor([ 0.8407,  0.8407]))
+tensor(2299.8650)
+tensor(-2305.4053)
+tensor(-2317.7151)
+tensor(2261.6536)
+tensor(2299.8650)
+tensor(-2305.4053)
+tensor(-2317.7151)
+tensor(2261.6536)
+('==> Intersection ', tensor(4592.3193))
+('==> Ground Area ', tensor([ 8051.9053,  8051.9053]), tensor([ 6769.6084,  6769.6084]))
+('==> Union ', tensor([ 10229.1943,  10229.1943]))
+Real IOU: 0.6128, Pred IOU: 0.4489
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_013496_55_info.json
+==> Get Positions
+(20, 2)
+(18, 2)
+==> Get real IOU
+Ground Truth Area : 215, Predict Area : 253, ratio: 1.17674
+0.793103448276
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 7216.4658,  7216.4658])
+tensor([ 6152.4160,  6152.4160])
+('Ratio: ', tensor([ 1.1729,  1.1729]))
+tensor(5326.6064)
+tensor(-5362.8042)
+tensor(-5265.4092)
+tensor(5340.9224)
+tensor(5326.6064)
+tensor(-5362.8042)
+tensor(-5265.4092)
+tensor(5340.9224)
+('==> Intersection ', tensor(10647.8711))
+('==> Ground Area ', tensor([ 6152.4160,  6152.4160]), tensor([ 7216.4658,  7216.4658]))
+('==> Union ', tensor([ 2721.0107,  2721.0107]))
+Real IOU: 0.7931, Pred IOU: 3.9132
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_054415_57_info.json
+==> Get Positions
+(20, 2)
+(55, 2)
+==> Get real IOU
+Ground Truth Area : 46389, Predict Area : 45815, ratio: 0.98763
+0.936285936286
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 18718.8574,  18718.8574])
+tensor([ 18925.8359,  18925.8359])
+('Ratio: ', tensor([ 0.9891,  0.9891]))
+tensor(12244.6816)
+tensor(-12314.7520)
+tensor(-12154.4482)
+tensor(12230.4141)
+tensor(12244.6816)
+tensor(-12314.7520)
+tensor(-12154.4482)
+tensor(12230.4141)
+('==> Intersection ', tensor(24472.1465))
+('==> Ground Area ', tensor([ 18925.8359,  18925.8359]), tensor([ 18718.8574,  18718.8574]))
+('==> Union ', tensor([ 13172.5488,  13172.5488]))
+Real IOU: 0.9363, Pred IOU: 1.8578
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000155_000019_83_info.json
+==> Get Positions
+(20, 2)
+(18, 2)
+==> Get real IOU
+Ground Truth Area : 1522, Predict Area : 2044, ratio: 1.34297
+0.696479543292
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 6811.3081,  6811.3081])
+tensor([ 4935.7495,  4935.7495])
+('Ratio: ', tensor([ 1.3800,  1.3800]))
+tensor(762.5833)
+tensor(-742.5378)
+tensor(-767.4583)
+tensor(754.6902)
+tensor(762.5833)
+tensor(-742.5378)
+tensor(-767.4583)
+tensor(754.6902)
+('==> Intersection ', tensor(1513.6348))
+('==> Ground Area ', tensor([ 4935.7495,  4935.7495]), tensor([ 6811.3081,  6811.3081]))
+('==> Union ', tensor([ 10233.4229,  10233.4229]))
+Real IOU: 0.6965, Pred IOU: 0.1479
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_060545_70_info.json
+==> Get Positions
+(20, 2)
+(20, 2)
+==> Get real IOU
+Ground Truth Area : 566, Predict Area : 511, ratio: 0.90283
+0.704113924051
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 4149.4868,  4149.4868])
+tensor([ 4581.4468,  4581.4468])
+('Ratio: ', tensor([ 0.9057,  0.9057]))
+tensor(341.5919)
+tensor(-285.5923)
+tensor(-299.0275)
+tensor(294.0317)
+tensor(341.5919)
+tensor(-285.5923)
+tensor(-299.0275)
+tensor(294.0317)
+('==> Intersection ', tensor(610.1217))
+('==> Ground Area ', tensor([ 4581.4468,  4581.4468]), tensor([ 4149.4868,  4149.4868]))
+('==> Union ', tensor([ 8120.8120,  8120.8120]))
+Real IOU: 0.7041, Pred IOU: 0.0751
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000069_000019_59_info.json
+==> Get Positions
+(20, 2)
+(13, 2)
+==> Get real IOU
+Ground Truth Area : 696, Predict Area : 971, ratio: 1.39511
+0.574126534466
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 14792.4873,  14792.4873])
+tensor([ 10673.8027,  10673.8027])
+('Ratio: ', tensor([ 1.3859,  1.3859]))
+tensor(7129.3887)
+tensor(-7063.2808)
+tensor(-7016.8521)
+tensor(7137.9214)
+tensor(7129.3887)
+tensor(-7063.2808)
+tensor(-7016.8521)
+tensor(7137.9214)
+('==> Intersection ', tensor(14173.7217))
+('==> Ground Area ', tensor([ 10673.8027,  10673.8027]), tensor([ 14792.4873,  14792.4873]))
+('==> Union ', tensor([ 11292.5674,  11292.5674]))
+Real IOU: 0.5741, Pred IOU: 1.2551
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_009058_26_info.json
+==> Get Positions
+(20, 2)
+(18, 2)
+==> Get real IOU
+Ground Truth Area : 53324, Predict Area : 52521, ratio: 0.98494
+0.922043254826
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 36697.4453,  36697.4453])
+tensor([ 37216.5664,  37216.5664])
+('Ratio: ', tensor([ 0.9861,  0.9861]))
+tensor(34324.0352)
+tensor(-34379.3672)
+tensor(-34498.0781)
+tensor(34087.5977)
+tensor(34324.0352)
+tensor(-34379.3672)
+tensor(-34498.0781)
+tensor(34087.5977)
+('==> Intersection ', tensor(68644.5391))
+('==> Ground Area ', tensor([ 37216.5664,  37216.5664]), tensor([ 36697.4453,  36697.4453]))
+('==> Union ', tensor([ 5269.4766,  5269.4766]))
+Real IOU: 0.9220, Pred IOU: 13.0268
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_057478_52_info.json
+==> Get Positions
+(20, 2)
+(52, 2)
+==> Get real IOU
+Ground Truth Area : 16123, Predict Area : 16336, ratio: 1.01321
+0.850148198814
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 24933.2168,  24933.2168])
+tensor([ 23279.9609,  23279.9609])
+('Ratio: ', tensor([ 1.0710,  1.0710]))
+tensor(17193.8379)
+tensor(-17345.4590)
+tensor(-17145.3867)
+tensor(17227.6934)
+tensor(17193.8379)
+tensor(-17345.4590)
+tensor(-17145.3867)
+tensor(17227.6934)
+('==> Intersection ', tensor(34456.1875))
+('==> Ground Area ', tensor([ 23279.9609,  23279.9609]), tensor([ 24933.2168,  24933.2168]))
+('==> Union ', tensor([ 13756.9922,  13756.9922]))
+Real IOU: 0.8501, Pred IOU: 2.5046
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000068_000019_20_info.json
+==> Get Positions
+(20, 2)
+(9, 2)
+==> Get real IOU
+Ground Truth Area : 653, Predict Area : 1147, ratio: 1.75651
+0.40625
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 19840.7305,  19840.7305])
+tensor([ 2718.4858,  2718.4858])
+('Ratio: ', tensor([ 7.2984,  7.2984]))
+tensor(1447.6925)
+tensor(-1469.3828)
+tensor(-1479.9409)
+tensor(1444.1348)
+tensor(1447.6925)
+tensor(-1469.3828)
+tensor(-1479.9409)
+tensor(1444.1348)
+('==> Intersection ', tensor(2920.5757))
+('==> Ground Area ', tensor([ 2718.4858,  2718.4858]), tensor([ 19840.7305,  19840.7305]))
+('==> Union ', tensor([ 19638.6406,  19638.6406]))
+Real IOU: 0.4062, Pred IOU: 0.1487
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000000_014480_42_info.json
+==> Get Positions
+(20, 2)
+(47, 2)
+==> Get real IOU
+Ground Truth Area : 62583, Predict Area : 86461, ratio: 1.38154
+0.606596960224
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 26024.7246,  26024.7246])
+tensor([ 17707.5566,  17707.5566])
+('Ratio: ', tensor([ 1.4697,  1.4697]))
+tensor(8083.8765)
+tensor(-8169.4404)
+tensor(-8101.1826)
+tensor(7905.4458)
+tensor(8083.8765)
+tensor(-8169.4404)
+tensor(-8101.1826)
+tensor(7905.4458)
+('==> Intersection ', tensor(16129.9727))
+('==> Ground Area ', tensor([ 17707.5566,  17707.5566]), tensor([ 26024.7246,  26024.7246]))
+('==> Union ', tensor([ 27602.3086,  27602.3086]))
+Real IOU: 0.6066, Pred IOU: 0.5844
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000153_000019_112_info.json
+==> Get Positions
+(20, 2)
+(24, 2)
+==> Get real IOU
+Ground Truth Area : 4230, Predict Area : 3969, ratio: 0.93830
+0.721394079362
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 6648.3979,  6648.3979])
+tensor([ 7003.8057,  7003.8057])
+('Ratio: ', tensor([ 0.9493,  0.9493]))
+tensor(535.9095)
+tensor(-547.5766)
+tensor(-534.1644)
+tensor(572.6424)
+tensor(535.9095)
+tensor(-547.5766)
+tensor(-534.1644)
+tensor(572.6424)
+('==> Intersection ', tensor(1095.1464))
+('==> Ground Area ', tensor([ 7003.8057,  7003.8057]), tensor([ 6648.3979,  6648.3979]))
+('==> Union ', tensor([ 12557.0566,  12557.0566]))
+Real IOU: 0.7214, Pred IOU: 0.0872
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000000_017228_72_info.json
+==> Get Positions
+(20, 2)
+(21, 2)
+==> Get real IOU
+Ground Truth Area : 960, Predict Area : 1129, ratio: 1.17604
+0.655309033281
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 7124.5786,  7124.5786])
+tensor([ 5888.6919,  5888.6919])
+('Ratio: ', tensor([ 1.2099,  1.2099]))
+tensor(3155.7112)
+tensor(-3161.1282)
+tensor(-3181.2390)
+tensor(3083.2397)
+tensor(3155.7112)
+tensor(-3161.1282)
+tensor(-3181.2390)
+tensor(3083.2397)
+('==> Intersection ', tensor(6290.6592))
+('==> Ground Area ', tensor([ 5888.6919,  5888.6919]), tensor([ 7124.5786,  7124.5786]))
+('==> Union ', tensor([ 6722.6113,  6722.6113]))
+Real IOU: 0.6553, Pred IOU: 0.9357
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_055306_60_info.json
+==> Get Positions
+(20, 2)
+(9, 2)
+==> Get real IOU
+Ground Truth Area : 1176, Predict Area : 899, ratio: 0.76446
+0.739312657167
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 11649.6689,  11649.6689])
+tensor([ 15519.7158,  15519.7158])
+('Ratio: ', tensor([ 0.7506,  0.7506]))
+tensor(10830.4824)
+tensor(-10935.3174)
+tensor(-10806.8740)
+tensor(10857.6602)
+tensor(10830.4824)
+tensor(-10935.3174)
+tensor(-10806.8740)
+tensor(10857.6602)
+('==> Intersection ', tensor(21715.1680))
+('==> Ground Area ', tensor([ 15519.7158,  15519.7158]), tensor([ 11649.6689,  11649.6689]))
+('==> Union ', tensor([ 5454.2168,  5454.2168]))
+Real IOU: 0.7393, Pred IOU: 3.9814
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_035144_80_info.json
+==> Get Positions
+(20, 2)
+(37, 2)
+==> Get real IOU
+Ground Truth Area : 1879, Predict Area : 1842, ratio: 0.98031
+0.756846081209
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 6288.8721,  6288.8721])
+tensor([ 6370.5088,  6370.5088])
+('Ratio: ', tensor([ 0.9872,  0.9872]))
+tensor(882.3697)
+tensor(-817.2229)
+tensor(-814.7076)
+tensor(793.8293)
+tensor(882.3697)
+tensor(-817.2229)
+tensor(-814.7076)
+tensor(793.8293)
+('==> Intersection ', tensor(1654.0648))
+('==> Ground Area ', tensor([ 6370.5088,  6370.5088]), tensor([ 6288.8721,  6288.8721]))
+('==> Union ', tensor([ 11005.3164,  11005.3164]))
+Real IOU: 0.7568, Pred IOU: 0.1503
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000097_000019_67_info.json
+==> Get Positions
+(20, 2)
+(47, 2)
+==> Get real IOU
+Ground Truth Area : 11020, Predict Area : 8167, ratio: 0.74111
+0.488056460369
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 12444.0820,  12444.0820])
+tensor([ 16697.4062,  16697.4062])
+('Ratio: ', tensor([ 0.7453,  0.7453]))
+tensor(5911.6079)
+tensor(-6365.6436)
+tensor(-6200.0664)
+tensor(6280.2959)
+tensor(5911.6079)
+tensor(-6365.6436)
+tensor(-6200.0664)
+tensor(6280.2959)
+('==> Intersection ', tensor(12378.8066))
+('==> Ground Area ', tensor([ 16697.4062,  16697.4062]), tensor([ 12444.0820,  12444.0820]))
+('==> Union ', tensor([ 16762.6816,  16762.6816]))
+Real IOU: 0.4881, Pred IOU: 0.7385
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/munster_000172_000019_72_info.json
+==> Get Positions
+(20, 2)
+(42, 2)
+==> Get real IOU
+Ground Truth Area : 29397, Predict Area : 28957, ratio: 0.98503
+0.948966300391
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 19718.8340,  19718.8340])
+tensor([ 19996.7500,  19996.7500])
+('Ratio: ', tensor([ 0.9861,  0.9861]))
+tensor(10092.9473)
+tensor(-10190.3516)
+tensor(-9982.5410)
+tensor(10132.6826)
+tensor(10092.9473)
+tensor(-10190.3516)
+tensor(-9982.5410)
+tensor(10132.6826)
+('==> Intersection ', tensor(20199.2598))
+('==> Ground Area ', tensor([ 19996.7500,  19996.7500]), tensor([ 19718.8340,  19718.8340]))
+('==> Union ', tensor([ 19516.3262,  19516.3262]))
+Real IOU: 0.9490, Pred IOU: 1.0350
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_016273_101_info.json
+==> Get Positions
+(20, 2)
+(30, 2)
+==> Get real IOU
+Ground Truth Area : 462, Predict Area : 518, ratio: 1.12121
+0.710296684119
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 5660.4404,  5660.4404])
+tensor([ 4838.7500,  4838.7500])
+('Ratio: ', tensor([ 1.1698,  1.1698]))
+tensor(832.8511)
+tensor(-838.5402)
+tensor(-842.0787)
+tensor(834.3001)
+tensor(832.8511)
+tensor(-838.5402)
+tensor(-842.0787)
+tensor(834.3001)
+('==> Intersection ', tensor(1673.8851))
+('==> Ground Area ', tensor([ 4838.7500,  4838.7500]), tensor([ 5660.4404,  5660.4404]))
+('==> Union ', tensor([ 8825.3057,  8825.3057]))
+Real IOU: 0.7103, Pred IOU: 0.1897
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_054640_13_info.json
+==> Get Positions
+(20, 2)
+(20, 2)
+==> Get real IOU
+Ground Truth Area : 148, Predict Area : 126, ratio: 0.85135
+0.691358024691
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 3574.5093,  3574.5093])
+tensor([ 4256.6201,  4256.6201])
+('Ratio: ', tensor([ 0.8398,  0.8398]))
+tensor(1401.6547)
+tensor(-1406.1787)
+tensor(-1404.0376)
+tensor(1427.3790)
+tensor(1401.6547)
+tensor(-1406.1787)
+tensor(-1404.0376)
+tensor(1427.3790)
+('==> Intersection ', tensor(2819.6250))
+('==> Ground Area ', tensor([ 4256.6201,  4256.6201]), tensor([ 3574.5093,  3574.5093]))
+('==> Union ', tensor([ 5011.5044,  5011.5044]))
+Real IOU: 0.6914, Pred IOU: 0.5626
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_014221_87_info.json
+==> Get Positions
+(20, 2)
+(28, 2)
+==> Get real IOU
+Ground Truth Area : 355, Predict Area : 302, ratio: 0.85070
+0.766129032258
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 4576.7822,  4576.7822])
+tensor([ 5680.3018,  5680.3018])
+('Ratio: ', tensor([ 0.8057,  0.8057]))
+tensor(1068.2017)
+tensor(-1049.7308)
+tensor(-1073.1866)
+tensor(999.4105)
+tensor(1068.2017)
+tensor(-1049.7308)
+tensor(-1073.1866)
+tensor(999.4105)
+('==> Intersection ', tensor(2095.2649))
+('==> Ground Area ', tensor([ 5680.3018,  5680.3018]), tensor([ 4576.7822,  4576.7822]))
+('==> Union ', tensor([ 8161.8193,  8161.8193]))
+Real IOU: 0.7661, Pred IOU: 0.2567
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/lindau_000056_000019_25_info.json
+==> Get Positions
+(20, 2)
+(40, 2)
+==> Get real IOU
+Ground Truth Area : 4560, Predict Area : 5218, ratio: 1.14430
+0.824253731343
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 18042.5234,  18042.5234])
+tensor([ 15707.2383,  15707.2383])
+('Ratio: ', tensor([ 1.1487,  1.1487]))
+tensor(5425.3848)
+tensor(-5382.9282)
+tensor(-5294.0386)
+tensor(5456.9473)
+tensor(5425.3848)
+tensor(-5382.9282)
+tensor(-5294.0386)
+tensor(5456.9473)
+('==> Intersection ', tensor(10779.6484))
+('==> Ground Area ', tensor([ 15707.2383,  15707.2383]), tensor([ 18042.5234,  18042.5234]))
+('==> Union ', tensor([ 22970.1133,  22970.1133]))
+Real IOU: 0.8243, Pred IOU: 0.4693
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/lindau_000016_000019_28_info.json
+==> Get Positions
+(20, 2)
+(52, 2)
+==> Get real IOU
+Ground Truth Area : 12646, Predict Area : 12701, ratio: 1.00435
+0.925332320547
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 16281.6670,  16281.6670])
+tensor([ 16178.2852,  16178.2852])
+('Ratio: ', tensor([ 1.0064,  1.0064]))
+tensor(12261.8330)
+tensor(-12267.3359)
+tensor(-12150.8828)
+tensor(12298.7979)
+tensor(12261.8330)
+tensor(-12267.3359)
+tensor(-12150.8828)
+tensor(12298.7979)
+('==> Intersection ', tensor(24489.4238))
+('==> Ground Area ', tensor([ 16178.2852,  16178.2852]), tensor([ 16281.6670,  16281.6670]))
+('==> Union ', tensor([ 7970.5293,  7970.5293]))
+Real IOU: 0.9253, Pred IOU: 3.0725
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_062016_25_info.json
+==> Get Positions
+(20, 2)
+(31, 2)
+==> Get real IOU
+Ground Truth Area : 2055, Predict Area : 1952, ratio: 0.94988
+0.899952584163
+==> Normalize Positions
+==> Sample Points from the curve and line
+==> match for iou
+==> Get individual areas
+tensor([ 15394.8262,  15394.8262])
+tensor([ 16160.3984,  16160.3984])
+('Ratio: ', tensor([ 0.9526,  0.9526]))
+tensor(10596.0342)
+tensor(-10657.3516)
+tensor(-10508.0742)
+tensor(10618.7715)
+tensor(10596.0342)
+tensor(-10657.3516)
+tensor(-10508.0742)
+tensor(10618.7715)
+('==> Intersection ', tensor(21190.1172))
+('==> Ground Area ', tensor([ 16160.3984,  16160.3984]), tensor([ 15394.8262,  15394.8262]))
+('==> Union ', tensor([ 10365.1074,  10365.1074]))
+Real IOU: 0.9000, Pred IOU: 2.0444
+/ais/gobi6/jungao/polyrnn-pp-chamfer/model_dirs/active-spline-20-cp/prediction/test_diff_iou/frankfurt_000001_051737_85_info.json
+==> Get Positions
+(20, 2)
+(76, 2)
+==> Get real IOU
+Ground Truth Area : 10653, Predict Area : 10456, ratio: 0.98151
+0.884563878225
+==> Normalize Positions
+==> Sample Points from the curve and line

@@ -365,7 +365,7 @@ class Trainer(object):
         self.epoch = 0
         self.opts = opts
 
-        self.model_path = './checkpoints_cgcn/DACN2.pth'
+        self.model_path = './checkpoints_cgcn/Curve_GCN2.pth'
 
         self.handroff_loss = AveragedHausdorffLoss()
         self.spline = ActiveSplineTorch(20, 1300, device=device, alpha=0.5)
@@ -618,10 +618,8 @@ class Trainer(object):
                                                                         loss_type=self.opts['loss_type'])
             
             gt_y = dp[0,:,:]
-            # pred_cps = pred_cps[0,:,:]
-            # # print(gt_y.shape)
-            han_loss = self.handroff_loss(pred_cps88[0], gt_y)
-            loss_v = 0.4*han_loss + poly_mathcing_loss_sum + 200*poly_loss + 200*vertex_loss
+
+            loss_v = poly_mathcing_loss_sum + 200*poly_loss + 200*vertex_loss
             loss_sum = han_loss
             self.gcn_loss_sum_train = poly_mathcing_loss_sum
             edge_loss_sum = poly_loss
@@ -864,11 +862,8 @@ class Trainer(object):
                                                                             dp,
                                                                             loss_type=self.opts['loss_type'])
                 gt_y = dp[0,:,:]
-                # pred_cps = pred_cps[0,:,:]
-                # # print(gt_y.shape)
-                han_loss = self.handroff_loss(pred_cps[0].float(), gt_y.float())
 
-                loss_sum = han_loss
+                loss_sum = poly_mathcing_loss_sum
                 self.gcn_loss_sum_val = poly_mathcing_loss_sum
                 edge_loss_sum = poly_loss
                 vertex_loss_sum = vertex_loss
