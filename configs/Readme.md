@@ -126,25 +126,3 @@ python3 combined_train.py --exp train_experiment.json
 ```
 
 - Any required parameter changes can be performed in the experiment file.
-
-
-# Citation
-
-If you use BoundaryNet, please use the following BibTeX entry.
-
-```bibtex
-@inproceedings{trivedi2021boundarynet,
-    title = {BoundaryNet: An Attentive Deep Network with Fast Marching Distance Maps for Semi-automatic Layout Annotation},
-    author = {Trivedi, Abhishek and Sarvadevabhatla, Ravi Kiran},
-    booktitle = {International Conference on Document Analysis Recognition, {ICDAR} 2021},
-    year = {2021},
-}
-```
-
-# Contact
-
-For any queries, please contact [Dr. Ravi Kiran Sarvadevabhatla](mailto:ravi.kiran@iiit.ac.in.)
-
-# License
-
-This project is open sourced under [MIT License](LICENSE).
