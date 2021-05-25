@@ -51,6 +51,8 @@ pip install -r requirements.txt
 
 ## Training
 
+### BoundaryNet
+
 1. MCNN:
 ```
 bash Scripts/train_mcnn.sh
@@ -66,6 +68,9 @@ bash Scripts/fine_tune.sh
 - For all of the above scripts, corresponding experiment files are present in ```experiments``` directory.
 - Any required parameter changes can be performed in these files.
 
+### Baselines
+
+Please refer to the Readme.md under the configs directory for modified baselines.
 
 ## Inference
 
@@ -107,6 +112,7 @@ bash Scripts/test.sh
  bash train_agcn.sh
  ```
 > Check the corresponding instance-level boundary results at ```visualizations/test_gcn_pred/``` directory.
+
 
 
 # Citation
