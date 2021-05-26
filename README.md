@@ -70,7 +70,7 @@ bash Scripts/fine_tune.sh
 
 ### Baselines
 
-Please refer to the [Readme.md](configs/Readme.md) under the configs directory for modified baselines.
+Refer to the [Readme.md](configs/Readme.md) under the configs directory for modified baselines - CurveGCN, PolyRNN++ and DACN.
 
 ## Inference
 
