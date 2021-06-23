@@ -8,9 +8,9 @@
 
 </samp>
 
-**_To appear at [ICDAR 2021](https://icdar2021.org/)_**
+**_To appear at [ICDAR 2021](https://icdar2021.org/)_ [ORAL PRESENTATION]**
 
-| **[ [```Paper```](<>) ]** | **[ [```Website```](<https://ihdia.iiit.ac.in/BoundaryNet/>) ]** |
+| **[ [```Paper```](<https://drive.google.com/file/d/1lmnuGCjFA7HOJX2wLjklESwqJzbW4tXR/view?usp=sharing>) ]** | **[ [```Website```](<https://ihdia.iiit.ac.in/BoundaryNet/>) ]** |
 |:-------------------:|:-------------------:|
 
 <img src="Architecture.png">
