@@ -22,6 +22,29 @@ initial boundary estimate and an associated feature representation. These output
 loss to obtain the final region boundary.
 </div>
 
+--
+
+<div align="center">
+    <a href="https://youtu.be/W30EOByoGks">
+        <img src="https://img.shields.io/badge/Watch on YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+    </a>
+<br>
+<table>
+    <tr>
+        <td>
+            <a href="https://youtu.be/W30EOByoGks" target="_blank">
+                <img src="http://img.youtube.com/vi/W30EOByoGks/maxresdefault.jpg" alt="Watch the video" width="640" height="360" border="5"/>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <th><samp>Teaser Video (Click on Image above)</samp></th>
+    </tr>
+</table>
+</div>
+
+--
+
 # Dependencies and Installation
 
 The BoundaryNet code is tested with
